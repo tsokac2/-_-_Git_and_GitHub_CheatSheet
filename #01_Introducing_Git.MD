@@ -33,6 +33,6 @@ Version control systems generally allow users to revisit earlier versions of the
 - Collaborate and share changes with other people
 - Combine changes
 
-![Git]()
+![Git](https://github.com/tsokac2/-_-_Git_and_GitHub_CheatSheet/blob/main/src/01.JPG)
 
 **[Back To The Top](#Overview-of-the-Section)**
