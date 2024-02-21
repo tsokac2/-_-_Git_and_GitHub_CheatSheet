@@ -83,14 +83,14 @@ It offers features like visual commit history, drag-and-drop Git branching, real
 - **Email**: Use the email you plan to use for your GitHub account (if applicable).
 **Configuration Steps**:
 - **Global**: Applies to all Git repositories on your machine.
-    - Command: git config --global user.name "Your Name"
-    - Command: git config --global user.email "your_email@example.com"
+    - Command: ``git config --global user.name "Your Name"``
+    - Command: ``git config --global user.email "your_email@example.com"``
 - **Local**: Applies to the current repository only.
-    - Command: git config user.name "Your Name"
-    - Command: git config user.email "your_email@example.com"
+    - Command: ``git config user.name "Your Name"``
+    - Command: ``git config user.email "your_email@example.com"``
 **Verification**:
-- Command: git config user.name (to check your username)
-- Command: git config user.email (to check your email)
+- Command: ``git config user.name`` (to check your username)
+- Command: ``git config user.email`` (to check your email)
 
 
 **[Back To The Top](#Overview-of-the-Section)**
