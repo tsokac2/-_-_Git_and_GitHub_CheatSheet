@@ -43,7 +43,6 @@ It offers features like visual commit history, drag-and-drop Git branching, real
 
 [GitKraken Link](https://www.gitkraken.com/)
 
-
 **[Back To The Top](#Overview-of-the-Section)**
 #
 ### <a name="install-git">Installing Git!</a>
@@ -58,10 +57,18 @@ It offers features like visual commit history, drag-and-drop Git branching, real
 - Verify successful installation by running ``git --version`` in the Git Bash terminal.
 - Git Bash is the primary interface for using Git on Windows.
 
-[git Link](https://git-scm.com/)
+**[git Link](https://git-scm.com/)**
 
 #### Mac
+- Most Macs come with git pre-installed, but this course requires version 2.23 or above.
+- Check your version with ``git --version`` in the terminal.
+- If you need to upgrade, download the latest version from the git website (link provided) and choose the "release" for Mac, not the source release.
+- Click on ``"binary installer"`` and download the latest version (greater than 2.23).
+- Double-click the downloaded package and follow the installation steps, including granting security permissions.
+- Open a new terminal window or tab to verify the updated version with ``git --version``.
+- Minor differences exist between versions, but most users won't be affected.
 
+**[git Link](https://git-scm.com/)**
 
 **[Back To The Top](#Overview-of-the-Section)**
 #
