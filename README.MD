@@ -10,6 +10,11 @@
 * **[Commits In Detail](https://github.com/tsokac2/-_-_Git_and_GitHub_CheatSheet/blob/main/%2304_Commits_In_Detail.MD)**
 
 
+* **[Branches](https://github.com/tsokac2/-_-_Git_and_GitHub_CheatSheet/blob/main/%2305_Branches.MD)**
+
+
+
+
 
 
 
