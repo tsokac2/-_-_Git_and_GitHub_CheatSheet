@@ -7,7 +7,25 @@
 #
 ### <a name="Atomic">Keeping Your Commits Atomic</a>
 
-![Atomic]()
+![Atomic](https://github.com/tsokac2/-_-_Git_and_GitHub_CheatSheet/blob/main/src/11.JPG)
+
+**Important commands**:
+
+- ``git status``
+- ``git add [file]``
+- ``git commit -m "[message]"``
+
+**Key points**:
+
+- Keep your commits atomic, which means they should focus on a single change.
+- This is important for tracking changes and making it easier to undo mistakes.
+- When making a commit, you can specify which files to include using ``git add``.
+- Use a clear and concise message when committing changes using ``git commit -m "[message]"``.
+
+**[Back To The Top](#Overview-of-the-Section)**
+#
+
+
 
 **[Back To The Top](#Overview-of-the-Section)**
 #
