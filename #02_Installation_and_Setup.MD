@@ -101,16 +101,83 @@ Basic Unix commands like ``ls``, ``pwd``, ``cd``, ``touch``,``mkdir`` are crucia
 #
 ### <a name="cmd-navigation">Terminal Course - Navigation</a>
 
+**Essential Commands**:
 
+- ``ls`` (list): Lists contents of the current directory.
+- ``pwd`` (print working directory): Shows the current location.
+- ``cd`` (change directory): Allows moving into different folders.
+- ``cd..``: Moves back one folder.
+- ``open`` (on Mac) / ``start`` (on Windows): Opens the current directory in Finder or File Explorer.
+
+**Navigation on Mac**:
+
+- ``ls`` displays contents of the current directory.
+- ``pwd`` reveals the current location.
+- ``cd`` allows changing into different folders.
+- ``open`` opens the current directory in Finder.
 
 **[Back To The Top](#Overview-of-the-Section)**
 #
 ### <a name="cmd-files">Terminal Course - Files and Folders</a>
 
+**File Creation with Touch Command**:
+- ``touch`` is a command used to create new files.
+- Unlike traditional methods through text editors, you can use touch in the terminal.
+- Syntax: ``touch <filename>`` creates a file in the current directory.
+- Multiple files can be created simultaneously by separating names with spaces.
+- Example: ``touch purple.js red.txt orange.py yellow.pdf``.
+
+**Creating Files in Different Directories**:
+- You can create files in the current directory or specify a path for a different location.
+- Example: ``touch pets/horses/rocky.png`` creates a PNG file in the specified path.
+- The location is crucial; if in the home directory, use touch filename, else use the full path.
+
+**Directory Creation with Make Directory Command**:
+- ``mkdir`` (make directory) is used to create new directories.
+- Syntax: ``mkdir <dirname>`` creates a directory in the current location.
+- Multiple directories can be created simultaneously by separating names with spaces.
+- Example: ``mkdir turtles sea_turtles land_turtles``.
+
+**Avoiding Spaces in File or Directory Names**:
+- Spaces in names can cause issues; it's recommended to use underscores or dashes.
+- Example: ``mkdir sea_turtles`` instead of ``mkdir sea turtles``.
+
+**Viewing Files and Directories**:
+- ``ls`` is used to list files and directories in the current location.
+- Example: ``ls`` shows the current files in the directory.
+- Use ``ls <path>`` to view files in a specific location.
+
+**Creating Folders on Windows**:
+- The same commands (mkdir and touch) work on Windows in the Command Prompt.
+- Example: ``mkdir cars bikes creates`` two folders on the desktop.
 
 **[Back To The Top](#Overview-of-the-Section)**
 #
 ### <a name="cmd-delete">Terminal Course - Delete Files and Folders</a>
 
+**Deleting Files**:
+- Command: ``rm``
+- Syntax: ``rm [filename]``
+- Be cautious, as it permanently deletes the file.
+
+**Creating Files for Deletion**:
+- Use commands like ``touch [filename]`` to create files for practice.
+
+**Deleting Multiple Files**:
+- Syntax: ``rm [file1] [file2]``
+
+**Deleting Folders**:
+- Normal ``rm`` doesn't work for folders.
+- Use ``rm -rf [folder]`` to delete a folder recursively and forcefully.
+
+**Flags and Options**:
+- Flags modify command behavior.
+- Examples: ``ls -a (list all, including hidden)``, ``rm -rf`` (recursive and force).
+
+**Example Commands**:
+- ``touch delete_me``
+- ``rm delete_me``
+- ``rm delete.txt remove.xls``
+- ``rm -rf folder_to_delete``
 
 **[Back To The Top](#Overview-of-the-Section)**
