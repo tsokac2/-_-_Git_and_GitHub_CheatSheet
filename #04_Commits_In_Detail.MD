@@ -43,7 +43,14 @@ Accompanying the configuration instructions in Your Editor, many editors can be 
 
 ``git log --oneline``
 
-![Oneline]()
+![Oneline](https://github.com/tsokac2/-_-_Git_and_GitHub_CheatSheet/blob/main/src/12.JPG)
+
+**[Git Log Docs](https://git-scm.com/docs/git-log)**
 
 **[Back To The Top](#Overview-of-the-Section)**
 #
+
+
+**[Back To The Top](#Overview-of-the-Section)**
+#
+
