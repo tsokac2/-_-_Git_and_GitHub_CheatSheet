@@ -4,6 +4,7 @@
 * **[What Is A Git Repo?](#git)**
 * **[``git Init`` and ``git Status``](#git-init-status)**
 * **[The Committing Workflow Overview](#workflow)**
+* **[``git add`` Command](#git-add)**
 
 #
 ### <a name="git">What Is A Git Repo?</a>
@@ -34,7 +35,17 @@ needed, all with separate histories and contents
 #
 ### <a name="workflow">The Committing Workflow Overview</a>
 
-![workflow](https://github.com/tsokac2/-_-_Git_and_GitHub_CheatSheet/blob/main/src/06.JPG)
+![Workflow](https://github.com/tsokac2/-_-_Git_and_GitHub_CheatSheet/blob/main/src/06.JPG)
+
+![Workflow_2](https://github.com/tsokac2/-_-_Git_and_GitHub_CheatSheet/blob/main/src/07.JPG)
+
+**[Back To The Top](#Overview-of-the-Section)**
+#
+### <a name="git-add"> ``git add`` and  ``git commit`` Command </a>
+
+![git_add](https://github.com/tsokac2/-_-_Git_and_GitHub_CheatSheet/blob/main/src/09.JPG)
+
+![git_commit](https://github.com/tsokac2/-_-_Git_and_GitHub_CheatSheet/blob/main/src/08.JPG)
 
 
 **[Back To The Top](#Overview-of-the-Section)**
