@@ -41,7 +41,7 @@ needed, all with separate histories and contents
 
 **[Back To The Top](#Overview-of-the-Section)**
 #
-### <a name="git-add"> ``git add`` and  ``git commit`` Command </a>
+### <a name="git-add"> ``git add`` and  ``git commit -m "your message"`` Command </a>
 
 ![git_add](https://github.com/tsokac2/-_-_Git_and_GitHub_CheatSheet/blob/main/src/09.JPG)
 
@@ -51,3 +51,13 @@ needed, all with separate histories and contents
 
 **[Back To The Top](#Overview-of-the-Section)**
 #
+### <a name="git-log">``git log`` command</a>
+
+The ``git log`` command is a fundamental tool in Git that displays a historical log of commits within your project's repository. It's your window into understanding:
+
+- **Who made changes**: Author name and email.
+- **When changes were made**: Commit timestamps.
+- **What was changed**: Commit messages summarizing the changes.
+- **Unique identifiers**: SHA-1 hashes for each commit.
+
+**[Back To The Top](#Overview-of-the-Section)**
