@@ -5,6 +5,7 @@
 * **[``git Init`` and ``git Status``](#git-init-status)**
 * **[The Committing Workflow Overview](#workflow)**
 * **[``git add`` Command](#git-add)**
+* **[``git log`` Command](#git-log)**
 
 #
 ### <a name="git">What Is A Git Repo?</a>
