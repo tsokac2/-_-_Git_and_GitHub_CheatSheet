@@ -2,7 +2,7 @@
 
 ### Overview of the Section
 * **[Keeping Your Commits Atomic](#atomic)**
-
+* **[Escaping VIM & Configuring Git's Default Editor](#configuring)**
 
 #
 ### <a name="Atomic">Keeping Your Commits Atomic</a>
