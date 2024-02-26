@@ -47,6 +47,7 @@ needed, all with separate histories and contents
 
 ![git_commit](https://github.com/tsokac2/-_-_Git_and_GitHub_CheatSheet/blob/main/src/08.JPG)
 
+![git_commit_m](https://github.com/tsokac2/-_-_Git_and_GitHub_CheatSheet/blob/main/src/10.JPG)
 
 **[Back To The Top](#Overview-of-the-Section)**
 #
