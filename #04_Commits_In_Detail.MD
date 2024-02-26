@@ -3,6 +3,7 @@
 ### Overview of the Section
 * **[Keeping Your Commits Atomic](#atomic)**
 * **[Escaping VIM & Configuring Git's Default Editor](#configuring)**
+* **[Git Log Command](#git-log)**
 
 #
 ### <a name="Atomic">Keeping Your Commits Atomic</a>
@@ -35,6 +36,14 @@ Accompanying the configuration instructions in Your Editor, many editors can be 
 ``git config --global core.editor "code --wait"``
 
 **[Git Docs for more info](https://git-scm.com/book/en/v2/Appendix-C%3A-Git-Commands-Setup-and-Config)**
+
+**[Back To The Top](#Overview-of-the-Section)**
+#
+### <a name="git-log">Git Log Command</a>
+
+``git log --oneline``
+
+![Oneline]()
 
 **[Back To The Top](#Overview-of-the-Section)**
 #
