@@ -1,11 +1,21 @@
 <h1 align="center">Very Basics Of Git: Adding and Committing</h1>
 
 ### Overview of the Section
-* **[](#)**
+* **[What Is A Git Repo?](#git)**
 
 #
-### <a name="cmd">Git: Command line & GUIs</a>
+### <a name="git">What Is A Git Repo?</a>
 
+A **Git "Repo"** is a workspace which tracks and
+manages files within a folder.
+
+Anytime we want to use Git with a project, app,
+etc we need to create a new git repository. 
+
+We can have as many repos on our machine as
+needed, all with separate histories and contents
+
+![]()
 
 **[Back To The Top](#Overview-of-the-Section)**
 #
