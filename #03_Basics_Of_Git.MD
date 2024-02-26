@@ -25,5 +25,7 @@ needed, all with separate histories and contents
 
 ![git Status](https://github.com/tsokac2/-_-_Git_and_GitHub_CheatSheet/blob/main/src/03.JPG)
 
+![git init](https://github.com/tsokac2/-_-_Git_and_GitHub_CheatSheet/blob/main/src/04.JPG)
+
 **[Back To The Top](#Overview-of-the-Section)**
 #
