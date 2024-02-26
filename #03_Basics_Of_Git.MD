@@ -15,7 +15,7 @@ etc we need to create a new git repository.
 We can have as many repos on our machine as
 needed, all with separate histories and contents
 
-![]()
+![git](https://github.com/tsokac2/-_-_Git_and_GitHub_CheatSheet/blob/main/src/02.JPG)
 
 **[Back To The Top](#Overview-of-the-Section)**
 #
