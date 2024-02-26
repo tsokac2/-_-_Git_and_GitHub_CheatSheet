@@ -4,6 +4,8 @@
 * **[Keeping Your Commits Atomic](#atomic)**
 * **[Escaping VIM & Configuring Git's Default Editor](#configuring)**
 * **[Git Log Command](#git-log)**
+* **[Fixing Mistakes With Amend](#fixing-mistakes-with-amend)**
+* **[Ignoring Files w/ .gitignore](#gitignore)**
 
 #
 ### <a name="Atomic">Keeping Your Commits Atomic</a>
@@ -49,8 +51,18 @@ Accompanying the configuration instructions in Your Editor, many editors can be 
 
 **[Back To The Top](#Overview-of-the-Section)**
 #
+### Fixing Mistakes With Amend
 
+![Amend]()
 
 **[Back To The Top](#Overview-of-the-Section)**
 #
 
+### <a name="gitignore">Ignoring Files w/ .gitignore</a>
+
+![gitignore]()
+
+
+[Ignoring files Docs](https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files)
+
+**[Back To The Top](#Overview-of-the-Section)**
