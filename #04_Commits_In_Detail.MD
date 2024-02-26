@@ -25,6 +25,16 @@
 **[Back To The Top](#Overview-of-the-Section)**
 #
 
+### <a name="configuring"> Escaping VIM & Configuring Git's Default Editor </a>
+
+``git config core.editor commands``
+Accompanying the configuration instructions in Your Editor, many editors can be set as follows:
+
+**Visual Studio Code**:
+
+``git config --global core.editor "code --wait"``
+
+**[Git Docs for more info](https://git-scm.com/book/en/v2/Appendix-C%3A-Git-Commands-Setup-and-Config)**
 
 **[Back To The Top](#Overview-of-the-Section)**
 #
