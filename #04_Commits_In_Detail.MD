@@ -52,16 +52,13 @@ Accompanying the configuration instructions in Your Editor, many editors can be 
 **[Back To The Top](#Overview-of-the-Section)**
 #
 ### Fixing Mistakes With Amend
-
-![Amend]()
+![Amend](https://github.com/tsokac2/-_-_Git_and_GitHub_CheatSheet/blob/main/src/13.JPG)
 
 **[Back To The Top](#Overview-of-the-Section)**
 #
-
 ### <a name="gitignore">Ignoring Files w/ .gitignore</a>
 
-![gitignore]()
-
+![gitignore](https://github.com/tsokac2/-_-_Git_and_GitHub_CheatSheet/blob/main/src/14.JPG)
 
 [Ignoring files Docs](https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files)
 
