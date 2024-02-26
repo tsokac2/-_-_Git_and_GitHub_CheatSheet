@@ -97,10 +97,10 @@ It offers features like visual commit history, drag-and-drop Git branching, real
 #
 ### <a name="cmd-intro">Terminal Course - Intro</a>
 
-
-**[Back To The Top](#Overview-of-the-Section)**
+Basic Unix commands like ``ls``, ``pwd``, ``cd``, ``touch``,``mkdir`` are crucial for navigating the terminal and working with Git.
 #
 ### <a name="cmd-navigation">Terminal Course - Navigation</a>
+
 
 
 **[Back To The Top](#Overview-of-the-Section)**
