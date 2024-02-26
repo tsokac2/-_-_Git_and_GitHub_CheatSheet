@@ -3,6 +3,7 @@
 ### Overview of the Section
 * **[What Is A Git Repo?](#git)**
 * **[``git Init`` and ``git Status``](#git-init-status)**
+* **[The Committing Workflow Overview](#workflow)**
 
 #
 ### <a name="git">What Is A Git Repo?</a>
@@ -31,7 +32,9 @@ needed, all with separate histories and contents
 
 **[Back To The Top](#Overview-of-the-Section)**
 #
+### <a name="workflow">The Committing Workflow Overview</a>
 
+![workflow](https://github.com/tsokac2/-_-_Git_and_GitHub_CheatSheet/blob/main/src/06.JPG)
 
 
 **[Back To The Top](#Overview-of-the-Section)**
