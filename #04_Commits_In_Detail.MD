@@ -60,6 +60,13 @@ Accompanying the configuration instructions in Your Editor, many editors can be 
 
 ![gitignore](https://github.com/tsokac2/-_-_Git_and_GitHub_CheatSheet/blob/main/src/14.JPG)
 
+#### .gitignore file:
+```
+node_modules/
+package-lock.json
+package.json
+```
+
 [Ignoring files Docs](https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files)
 
 **[Back To The Top](#Overview-of-the-Section)**
