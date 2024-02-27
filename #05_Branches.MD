@@ -23,7 +23,7 @@ Branches are separate timelines for your project. They allow you to work on diff
 
 ### <a name="master">Master Branch</a>
 
-![Master]()
+![Master](https://github.com/tsokac2/-_-_Git_and_GitHub_CheatSheet/blob/main/src/17.JPG)
 
 - We are always on a branch, even if we haven't explicitly created one. The default branch is called master.
 - ``git init``: This command initializes a new Git repository.
@@ -34,6 +34,10 @@ Branches are separate timelines for your project. They allow you to work on diff
     - The master branch is the source of truth.
     - Developers create new branches for features or bug fixes.
     - When changes are ready, they are merged back into the master branch.
+
+**[Back To The Top](#Overview-of-the-Section)**
+#
+
 
 **[Back To The Top](#Overview-of-the-Section)**
 #
