@@ -55,7 +55,25 @@ We merge based on the current head branch (where ``HEAD`` points).
 
 ### Resolving Merge Conflicts
 
-![Merge_Conflict]()
+![Merge_Conflict](https://github.com/tsokac2/-_-_Git_and_GitHub_CheatSheet/blob/main/src/23.JPG)
+
+**Deleting a Branch**:
+- Command: ``git branch -d <branch_name>``
+- Make sure you are not on the branch you want to delete.
+
+**Creating Branches**:
+- Command: ``git switch -c <branch_name>``
+
+**Merging Branches**:
+- Command: ``git merge <branch_name>``
+- This may lead to merge conflicts if changes were made to the same file in both branches.
+
+**Resolving Merge Conflicts**:
+- Manually edit the file and remove conflict markers (``<<<<<<<, =======, >>>>>>>``).
+- Decide which changes to keep from each branch.
+- Save the file.
+- Stage the changes: ``git add <file_name>``
+- Commit the changes: ``git commit -m "<message>"``
 
 **[Back To The Top](#Overview-of-the-Section)**
 #
