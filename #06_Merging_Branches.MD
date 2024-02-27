@@ -3,7 +3,7 @@
 ### Overview of the Section
 * **[Merging](#merging)**
 * **[Performing A Fast Forward Merge](#fast-forward)**
-
+* **[Generating Merge Commits](#merge-commits)**
 
 #
 ### Merging
@@ -34,6 +34,21 @@ We merge based on the current head branch (where ``HEAD`` points).
 - **Steps**:
 1. Switch to the destination branch (where you want the changes to be merged). Example: ``git switch master``
 2. Run ``git merge <branch_name>`` to merge the specified branch into the current branch.
+
+**[Back To The Top](#Overview-of-the-Section)**
+#
+
+### <a name="merge-commits">Generating Merge Commits</a>
+**Concepts**:
+- **Fast-forward merge**: When merging a branch with no new commits on the target branch, Git simply moves the branch pointer forward.
+- **Non-fast-forward merge (merge commit)**: When the target branch has new commits since the branch to be merged was created, Git creates a new commit to merge the changes. This commit has two parents, one from the target branch and one from the branch being merged.
+
+**Commands**:
+- ``git branch <branch_name>``: Creates a new branch.
+- ``git checkout <branch_name>``: Switches to a different branch.
+- ``git add <file_name>``: Adds a file to the staging area for the next commit.
+- ``git commit -m "<message>"``: Commits changes with a message.
+- ``git merge <branch_name>``: Merges changes from another branch into the current branch.
 
 **[Back To The Top](#Overview-of-the-Section)**
 #
