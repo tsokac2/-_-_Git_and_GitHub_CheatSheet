@@ -136,8 +136,3 @@ Branches are separate timelines for your project. They allow you to work on diff
 - The branch name is simply changed, the commits and history remain the same.
 
 **[Back To The Top](#Overview-of-the-Section)**
-#
-
-
-**[Back To The Top](#Overview-of-the-Section)**
-#
