@@ -6,7 +6,7 @@
 #
 ### <a name="branches">Branches Intro</a>
 
-![branches_2](https://github.com/tsokac2/-_-_Git_and_GitHub_CheatSheet/blob/main/src/15.JPG)
+![branches_2](https://github.com/tsokac2/-_-_Git_and_GitHub_CheatSheet/blob/main/src/16.JPG)
 
 - Git uses commit hashes to uniquely identify each commit. (These look like long strings of letters and numbers.)
 - Each commit references one or more parent commits that came before it.
