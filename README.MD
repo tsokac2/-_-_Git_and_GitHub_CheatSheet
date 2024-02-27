@@ -12,6 +12,11 @@
 
 * **[Branches](https://github.com/tsokac2/-_-_Git_and_GitHub_CheatSheet/blob/main/%2305_Branches.MD)**
 
+* **[Merging Branches](https://github.com/tsokac2/-_-_Git_and_GitHub_CheatSheet/blob/main/%2306_Merging_Branches.MD)**
+
+
+
+
 
 
 
