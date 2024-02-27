@@ -5,6 +5,7 @@
 * **[Master Branch](#master)**
 * **[HEAD -> master](#head-master)**
 * **[Viewing and Creating Branches](#view-branches)**
+* **[``git checkout <branch name>``](#checkout)**
 
 #
 ### <a name="branches">Branches Intro</a>
@@ -83,10 +84,23 @@ Branches are separate timelines for your project. They allow you to work on diff
 - You can use ``git log`` to see which commit each branch is pointing to.
 - Switching branches changes your working directory to the content of the selected branch.
 
+
+- **Creating a new branch**:
+    - Use ``git branch <branch-name>`` to create a new branch based on the current **HEAD**.
+    - The current branch you're on when creating a new branch matters.
+- **Switching branches**:
+    - Use git switch <branch-name> to switch to a different branch.
+    - HEAD will point to the new branch after switching.
+- **Checking branch history**:
+    - Use ``git log`` to view the commit history of the current branch.
+- **Adding and committing changes (one-line shortcut)**:
+    - Use ``git commit -a -m "<message>"`` to add all staged changes and commit them with a message.
+
 **[Back To The Top](#Overview-of-the-Section)**
 #
+### <a name="checkout">``git checkout <branch name>``</a>
 
-#### Switching Branches With Unstaged Changes?
+![]()
 
 **[Back To The Top](#Overview-of-the-Section)**
 #
