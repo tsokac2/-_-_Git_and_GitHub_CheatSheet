@@ -4,6 +4,7 @@
 * **[Merging](#merging)**
 * **[Performing A Fast Forward Merge](#fast-forward)**
 * **[Generating Merge Commits](#merge-commits)**
+* **[Resolving Merge Conflicts](#conflicts)**
 
 #
 ### Merging
@@ -52,8 +53,7 @@ We merge based on the current head branch (where ``HEAD`` points).
 
 **[Back To The Top](#Overview-of-the-Section)**
 #
-
-### Resolving Merge Conflicts
+### <a name="conflicts">Resolving Merge Conflicts</a>
 
 ![Merge_Conflict](https://github.com/tsokac2/-_-_Git_and_GitHub_CheatSheet/blob/main/src/23.JPG)
 
