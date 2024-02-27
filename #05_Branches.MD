@@ -3,6 +3,7 @@
 ### Overview of the Section
 * **[Branches Intro](#branches)**
 * **[Master Branch](#master)**
+* **[HEAD -> master](#head-master)**
 
 #
 ### <a name="branches">Branches Intro</a>
@@ -34,6 +35,24 @@ Branches are separate timelines for your project. They allow you to work on diff
     - The master branch is the source of truth.
     - Developers create new branches for features or bug fixes.
     - When changes are ready, they are merged back into the master branch.
+
+**[Back To The Top](#Overview-of-the-Section)**
+#
+
+### <a name="head-master">HEAD -> master</a>
+
+![]()
+
+- **HEAD**: This is a pointer that refers to the current location in the Git repository, specifically the currently checked out branch.
+- **Branch reference**: This refers to the location of a specific branch in the repository.
+- **Branch**: A branch is like a bookmark in a book, allowing you to track different development paths without affecting the main codebase (master branch).
+- **Switching branches**: This refers to changing the HEAD pointer to point to a different branch, effectively moving to that branch.
+- **Commit**: A commit is a snapshot of the codebase at a specific point in time. Making a new commit updates the relevant branch pointer to reflect this change.
+
+**Important commands (not mentioned in the excerpt but relevant to the concepts)**:
+
+- ``git branch``: This command allows you to list, create, rename, and delete branches.
+- ``git checkout``: This command allows you to switch between branches.
 
 **[Back To The Top](#Overview-of-the-Section)**
 #
