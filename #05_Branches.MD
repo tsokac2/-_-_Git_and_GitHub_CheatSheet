@@ -6,6 +6,7 @@
 * **[HEAD -> master](#head-master)**
 * **[Viewing and Creating Branches](#view-branches)**
 * **[``git checkout <branch name>``](#checkout)**
+* **[Deleting & Renaming Branches](#delete)**
 
 #
 ### <a name="branches">Branches Intro</a>
@@ -117,6 +118,25 @@ Branches are separate timelines for your project. They allow you to work on diff
 **[Back To The Top](#Overview-of-the-Section)**
 #
 
+### <a name="delete">Deleting & Renaming Branches</a>
+
+**Deleting a Branch**:
+
+- Command: ``git branch -D <branch_name>`` (force deletion: ``git branch -D -d <branch_name>``)
+
+**Important**:
+- Branch cannot be the currently checked out branch.
+- Use force deletion (``-D -d``) with caution, as it permanently deletes the branch without requiring it to be merged.
+
+**Renaming a Branch**:
+- Command: ``git branch -m <new_name>``
+
+**Important**:
+- You must be on the branch you want to rename.
+- The branch name is simply changed, the commits and history remain the same.
+
+**[Back To The Top](#Overview-of-the-Section)**
+#
 
 
 **[Back To The Top](#Overview-of-the-Section)**
