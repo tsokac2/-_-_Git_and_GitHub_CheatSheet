@@ -100,7 +100,24 @@ Branches are separate timelines for your project. They allow you to work on diff
 #
 ### <a name="checkout">``git checkout <branch name>``</a>
 
-![]()
+![checkout](https://github.com/tsokac2/-_-_Git_and_GitHub_CheatSheet/blob/main/src/20.JPG)
+
+**Switching Branches**:
+- Use ``git checkout <branch_name>`` to switch to an existing branch.
+- This is the older way of switching branches compared to ``git switch``.
+- Both commands achieve the same outcome.
+
+**Creating and Switching to a Branch (One Step)**:
+- Use ``git switch -c <branch_name>`` to create a new branch and switch to it simultaneously.
+- This is a shortcut for creating a branch and then switching to it separately.
+
+**Equivalent Command (Less Common)**:
+- Use ``git checkout -b <branch_name>`` (not recommended) to create a new branch and switch to it in one step.
+
+**[Back To The Top](#Overview-of-the-Section)**
+#
+
+
 
 **[Back To The Top](#Overview-of-the-Section)**
 #
