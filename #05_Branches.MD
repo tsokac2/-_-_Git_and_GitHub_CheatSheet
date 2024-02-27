@@ -86,6 +86,7 @@ Branches are separate timelines for your project. They allow you to work on diff
 **[Back To The Top](#Overview-of-the-Section)**
 #
 
+#### Switching Branches With Unstaged Changes?
 
 **[Back To The Top](#Overview-of-the-Section)**
 #
