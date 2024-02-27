@@ -41,7 +41,7 @@ Branches are separate timelines for your project. They allow you to work on diff
 
 ### <a name="head-master">HEAD -> master</a>
 
-![]()
+![head](https://github.com/tsokac2/-_-_Git_and_GitHub_CheatSheet/blob/main/src/18.JPG)
 
 - **HEAD**: This is a pointer that refers to the current location in the Git repository, specifically the currently checked out branch.
 - **Branch reference**: This refers to the location of a specific branch in the repository.
