@@ -2,6 +2,7 @@
 
 ### Overview of the Section
 * **[Branches Intro](#branches)**
+* **[Master Branch](#master)**
 
 #
 ### <a name="branches">Branches Intro</a>
@@ -20,6 +21,19 @@ Branches are separate timelines for your project. They allow you to work on diff
 **[Back To The Top](#Overview-of-the-Section)**
 #
 
+### <a name="master">Master Branch</a>
+
+![Master]()
+
+- We are always on a branch, even if we haven't explicitly created one. The default branch is called master.
+- ``git init``: This command initializes a new Git repository.
+- ``git status``: This command shows the current branch and the status of your working directory.
+- The master branch is **not special** from Git's perspective. You can rename or delete it.
+- In 2020, GitHub changed the default branch name from master to main. Git itself still uses master as the default.
+- Many people use the **feature branching** workflow:
+    - The master branch is the source of truth.
+    - Developers create new branches for features or bug fixes.
+    - When changes are ready, they are merged back into the master branch.
 
 **[Back To The Top](#Overview-of-the-Section)**
 #
