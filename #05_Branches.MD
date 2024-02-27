@@ -4,6 +4,7 @@
 * **[Branches Intro](#branches)**
 * **[Master Branch](#master)**
 * **[HEAD -> master](#head-master)**
+* **[Viewing and Creating Branches](#view-branches)**
 
 #
 ### <a name="branches">Branches Intro</a>
@@ -56,6 +57,28 @@ Branches are separate timelines for your project. They allow you to work on diff
 
 **[Back To The Top](#Overview-of-the-Section)**
 #
+
+### <a name="view-branches">Viewing and Creating Branches</a>
+
+- The ``git branch`` command is used to **list** existing branches in a Git repository.
+- It does not create or switch branches, just displays them.
+- The currently active branch will have an asterisk (*) next to it in the output.
+- To exit the branch listing, type q.
+
+![create_branche]()
+
+**Creating a branch**:
+- Use the command: git branch <branch_name>
+- Replace <branch_name> with your desired name (avoid spaces).
+**Listing branches**:
+- Use the command: git branch
+**Switching branches**:
+- Use the command: git switch <branch_name>
+- Replace <branch_name> with the branch you want to switch to.
+**Important notes**:
+- Creating a branch does not switch you to it.
+- You can use git log to see which commit each branch is pointing to.
+- Switching branches changes your working directory to the content of the selected branch.
 
 
 **[Back To The Top](#Overview-of-the-Section)**
