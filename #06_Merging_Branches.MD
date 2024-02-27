@@ -53,6 +53,9 @@ We merge based on the current head branch (where ``HEAD`` points).
 **[Back To The Top](#Overview-of-the-Section)**
 #
 
+### Resolving Merge Conflicts
+
+![Merge_Conflict]()
 
 **[Back To The Top](#Overview-of-the-Section)**
 #
