@@ -6,7 +6,7 @@
 * **[Referencing Commits Relative to HEAD](#rel-to-head)**
 * **[Git Restore](#git-restore)**
 * **[Git Reset](#git-reset)**
-* **[Reverting Commits With...Git Revert](#git-revert)**
+* **[Git Revert](#git-revert)**
 
 #
 ### <a name="check-old-commits">Checking Out Old Commits</a>
@@ -94,10 +94,23 @@ Use ``git restore --source <commit> <file>`` to restore a file to the state at a
 
 **[Back To The Top](#Overview-of-the-Section)**
 #
-### <a name="git-revert">Reverting Commits With...Git Revert</a>
+### <a name="git-revert">Git Revert</a>
 
 ![Relative to HEAD](https://github.com/tsokac2/-_-_Git_and_GitHub_CheatSheet/blob/main/src/42.JPG)
 
+- ``git revert`` command is used to undo changes introduced in a specific commit.
+- Unlike ``git reset``, it **preserves the original commit** in the history but creates a **new commit** that "reverts" the changes.
+- This new commit message typically starts with "revert:".
+- Use ``git revert`` when collaborating with others to avoid conflicts in their local repositories.
+- ``git revert`` might lead to merge conflicts which require manual resolution.
+
+Important Code:
+- ``git revert <commit_hash>``: Reverts the specified commit.
+
+**Additional Notes**:
+- ``git reset`` is generally used when working alone and haven't shared the commit with others.
+
+![Relative to HEAD](https://github.com/tsokac2/-_-_Git_and_GitHub_CheatSheet/blob/main/src/43.JPG)
 
 **[Back To The Top](#Overview-of-the-Section)**
 
