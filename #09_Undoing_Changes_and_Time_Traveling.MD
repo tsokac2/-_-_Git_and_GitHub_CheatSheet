@@ -59,6 +59,18 @@
 ![Relative to HEAD](https://github.com/tsokac2/-_-_Git_and_GitHub_CheatSheet/blob/main/src/39.JPG)
 
 
+**New command**: git restore is a new and experimental command in Git. It helps with undoing operations within your repository.
+
+**Discarding Uncommitted Changes**:
+
+- Use ``git restore <file>`` to discard uncommitted changes in a file and restore it to the state at the last commit (similar to ``git checkout HEAD <file>``).
+
+**Restoring from a Specific Commit**:
+
+Use ``git restore --source <commit> <file>`` to restore a file to the state at a specific commit.
+- Replace ``<commit>`` with a commit hash or ``HEAD~<n>`` (where n is the number of commits back).
+
+**Caution**: This discards any uncommitted changes in the file.
 
 **[Back To The Top](#Overview-of-the-Section)**
 #
