@@ -24,7 +24,7 @@
 
 **[Back To The Top](#Overview-of-the-Section)**
 #
-<a name="reading-diffs">Guide To Reading Diffs</a>
+### <a name="reading-diffs">Guide To Reading Diffs</a>
 
 **Understanding Git Diff Output**:
 
