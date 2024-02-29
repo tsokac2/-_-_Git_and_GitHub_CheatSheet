@@ -79,5 +79,13 @@
     - Lines with ``-`` have been removed.
     - Lines with ``+`` have been added.
 
+![two_comparing](https://github.com/tsokac2/-_-_Git_and_GitHub_CheatSheet/blob/main/src/28.JPG)
+
+- **Compare changes between two commits**: Use ``git diff`` followed by two commit hashes.
+- **Order matters**: The order of commit hashes specifies the "from" and "to" point for comparison.
+- **Compare specific file(s)**: Add file names after the commit hashes in git diff.
+- **Staged changes only**: Use ``git diff --cached`` or ``git diff --staged``.
+- **Unstaged changes only**: Use ``git diff``.
+- **All changes since last commit**: Use ``git diff HEAD``.
+
 **[Back To The Top](#Overview-of-the-Section)**
-#
