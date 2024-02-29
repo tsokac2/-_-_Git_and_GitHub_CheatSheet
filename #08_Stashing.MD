@@ -65,5 +65,9 @@ This is useful if you need to apply the same changes to multiple branches or loc
 
 ![Stash Apply](https://github.com/tsokac2/-_-_Git_and_GitHub_CheatSheet/blob/main/src/32.JPG)
 
+![Stash Apply_01](https://github.com/tsokac2/-_-_Git_and_GitHub_CheatSheet/blob/main/src/33.JPG)
+
+![Stash Apply_02](https://github.com/tsokac2/-_-_Git_and_GitHub_CheatSheet/blob/main/src/34.JPG)
+
 **[Back To The Top](#Overview-of-the-Section)**
 #
