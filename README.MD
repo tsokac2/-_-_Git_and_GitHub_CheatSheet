@@ -15,6 +15,8 @@
 
 * **[Stashing](https://github.com/tsokac2/-_-_Git_and_GitHub_CheatSheet/blob/main/%2308_Stashing.MD)**
 
+* **[Undoing Changes & Time Traveling](https://github.com/tsokac2/-_-_Git_and_GitHub_CheatSheet/blob/main/%2309_Undoing_Changes_and_Time_Traveling.MD)**
+
 * **[GitHub](https://github.com/tsokac2/-_-_Git_and_GitHub_CheatSheet/blob/main/%2310_GitHub.MD)**
 
 
