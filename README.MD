@@ -19,9 +19,25 @@
 
 * **[GitHub](https://github.com/tsokac2/-_-_Git_and_GitHub_CheatSheet/blob/main/%2310_GitHub.MD)**
 
+#
 
 
+### Git Essentials: 
+Covers core Git mechanics like committing, branching, and related concepts.
+- Important commands: ``git init``, ``git add``, ``git commit``, ``git status``, ``git log``, ``git branch``, ``git merge``.
 
+### Next Level Git: 
+Explores advanced commands and concepts.
+
+- Important commands: ``git diff``, ``git stash``, ``git checkout``, ``git restore``, ``git reset``, ``git revert``.
+
+### Github & Collaboration: 
+Introduces remote repositories and collaboration workflows.
+- Important commands: ``git push``, ``git pull``, ``git fetch``.
+
+### The Tricky Bits: 
+Delves into advanced topics like rebasing and Git internals.
+- Important commands: ``git rebase``, ``git tag``, ``git reflog``.
 
 
 

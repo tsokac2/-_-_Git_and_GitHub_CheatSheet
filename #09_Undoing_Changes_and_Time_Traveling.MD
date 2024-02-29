@@ -5,6 +5,8 @@
 * **[Re-Attaching Our Detached HEAD!](#re-attaching)**
 * **[Referencing Commits Relative to HEAD](#rel-to-head)**
 * **[Git Restore](#git-restore)**
+* **[Git Reset](#git-reset)**
+* **[Reverting Commits With...Git Revert](#git-revert)**
 
 #
 ### <a name="check-old-commits">Checking Out Old Commits</a>
@@ -76,4 +78,27 @@ Use ``git restore --source <commit> <file>`` to restore a file to the state at a
 
 **[Back To The Top](#Overview-of-the-Section)**
 #
+
+### Git Reset
+
+![Relative to HEAD](https://github.com/tsokac2/-_-_Git_and_GitHub_CheatSheet/blob/main/src/41.JPG)
+
+**Commands**:
+- ``git reset [commit hash]``: Resets the repository back to the specified commit, but keeps the changes in the working directory.
+- ``git reset --hard [commit hash]``: Resets the repository back to the specified commit and discards all changes in the working directory since that commit.
+
+**Important Notes**:
+- ``git reset`` only removes commits, not the changes themselves from the working directory.
+- Use ``git reset --hard`` cautiously, as it discards all changes permanently.
+- ``git reset`` and ``git reset --hard`` work on a per-branch basis, meaning changes made in other branches are not affected.
+
+**[Back To The Top](#Overview-of-the-Section)**
+#
+### <a name="git-revert">Reverting Commits With...Git Revert</a>
+
+
+
+**[Back To The Top](#Overview-of-the-Section)**
+
+
 
