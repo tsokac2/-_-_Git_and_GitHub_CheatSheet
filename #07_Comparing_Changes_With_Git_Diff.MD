@@ -56,7 +56,7 @@
 - ``-``: Indicates a line that was removed in the working directory version (compared to the staging area version).
 - ``+``: Indicates a line that was added in the working directory version (compared to the staging area version).
 
-![]()
+![git_diff_stage](https://github.com/tsokac2/-_-_Git_and_GitHub_CheatSheet/blob/main/src/26.JPG)
 
 - To see **staged changes only**, use the ``git diff --staged`` command (or equivalently, ``git diff --cached``).
 - ``git diff`` by itself shows **unstaged changes**.
