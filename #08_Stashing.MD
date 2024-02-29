@@ -4,6 +4,7 @@
 * **[Git Stash](#stash)**
 * **[Stashing Basics: Git Stash Save & Pop](#git-stash)**
 * **[Git Stash Apply](#apply)**
+* **[Dropping & Clearing The Stash](#drop)**
 
 #
 ### <a name="stash">Git Stash</a>
@@ -71,3 +72,18 @@ This is useful if you need to apply the same changes to multiple branches or loc
 
 **[Back To The Top](#Overview-of-the-Section)**
 #
+### <a name="drop">Dropping & Clearing The Stash</a>
+
+**Drop a specific stash**:
+- Command: git stash drop <stash_identifier>
+- Replace <stash_identifier> with the index number from git stash list or the full hash.
+
+**Drop applies the stash and removes it permanently**
+
+**Alternative to dropping**:
+- ``git stash pop`` applies the most recent stash and removes it.
+**Clear all stashes**:
+- Command: ``git stash clear``
+- This permanently removes all stashes.
+
+**[Back To The Top](#Overview-of-the-Section)**
