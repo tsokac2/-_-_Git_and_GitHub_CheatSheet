@@ -4,6 +4,7 @@
 * **[Intro Git Diff](#diff)**
 * **[Guide To Reading Diffs](#reading-diffs)**
 * **[Viewing Unstaged Changes](#changes)**
+* **[Comparing Changes Across Branches](#comparing)**
 
 #
 ### <a name="diff">Intro Git Diff</a>
@@ -62,6 +63,21 @@
 - ``git diff`` by itself shows **unstaged changes**.
 - ``git diff HEAD`` shows **all changes**, staged and unstaged.
 - ``--staged`` and ``--cached`` are aliases for the same functionality.
+
+**[Back To The Top](#Overview-of-the-Section)**
+#
+### <a name="comparing">Comparing Changes Across Branches</a>
+
+![comparing](https://github.com/tsokac2/-_-_Git_and_GitHub_CheatSheet/blob/main/src/27.JPG)
+
+- You can use ``git diff`` to compare changes between two branches.
+- Separate the branch names with two dots (..) or a space to specify the comparison order.
+- The order matters: ``git diff master..odd-numbers`` shows changes from master to odd-numbers, while ``git diff odd-numbers master`` shows changes from odd-numbers to master.
+- The output shows the changes in each file:
+    - ``A`` represents the version from the first branch mentioned.
+    - ``B`` represents the version from the second branch mentioned.
+    - Lines with ``-`` have been removed.
+    - Lines with ``+`` have been added.
 
 **[Back To The Top](#Overview-of-the-Section)**
 #
