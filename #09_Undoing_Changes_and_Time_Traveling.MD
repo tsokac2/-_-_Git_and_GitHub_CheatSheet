@@ -4,6 +4,7 @@
 * **[Checking Out Old Commits](#check-old-commits)**
 * **[Re-Attaching Our Detached HEAD!](#re-attaching)**
 * **[Referencing Commits Relative to HEAD](#rel-to-head)**
+* **[Git Restore](#git-restore)**
 
 #
 ### <a name="check-old-commits">Checking Out Old Commits</a>
@@ -51,6 +52,13 @@
 
 **[Back To The Top](#Overview-of-the-Section)**
 #
+### <a name="git-restore">Git Restore</a>
+
+![Relative to HEAD](https://github.com/tsokac2/-_-_Git_and_GitHub_CheatSheet/blob/main/src/38.JPG)
+
+![Relative to HEAD](https://github.com/tsokac2/-_-_Git_and_GitHub_CheatSheet/blob/main/src/39.JPG)
+
+
 
 **[Back To The Top](#Overview-of-the-Section)**
 #
