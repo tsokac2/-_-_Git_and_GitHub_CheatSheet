@@ -72,6 +72,8 @@ Use ``git restore --source <commit> <file>`` to restore a file to the state at a
 
 **Caution**: This discards any uncommitted changes in the file.
 
+![Relative to HEAD](https://github.com/tsokac2/-_-_Git_and_GitHub_CheatSheet/blob/main/src/40.JPG)
+
 **[Back To The Top](#Overview-of-the-Section)**
 #
 
