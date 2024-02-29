@@ -63,5 +63,7 @@ This is useful if you need to apply the same changes to multiple branches or loc
 - ``git stash apply`` can lead to conflicts, which need to be resolved manually.
 - Using ``pop`` removes the changes from the stash, while ``apply`` keeps them available for future use.
 
+![Stash Apply]()
+
 **[Back To The Top](#Overview-of-the-Section)**
 #
