@@ -38,6 +38,20 @@
 ### <a name="rel-to-head">Referencing Commits Relative to HEAD</a>
 ![Relative to HEAD](https://github.com/tsokac2/-_-_Git_and_GitHub_CheatSheet/blob/main/src/36.JPG)
 
+- You can reference commits relative to the current HEAD using HEAD~ (tilde) followed by a number.
+- ``HEAD~1`` refers to the **previous commit** (one step back from HEAD).
+- ``HEAD~2`` refers to the **grandparent commit** (two steps back from HEAD), and so on.
+
+**Important Commands**:
+
+- ``git checkout HEAD~<number>``: Checks out the commit that is ``<number>`` commits before the current HEAD.
+- ``git switch`` -: Switches back to the branch you were previously on (useful when in detached HEAD).
+
+![Relative to HEAD](https://github.com/tsokac2/-_-_Git_and_GitHub_CheatSheet/blob/main/src/37.JPG)
+
+**[Back To The Top](#Overview-of-the-Section)**
+#
+
 **[Back To The Top](#Overview-of-the-Section)**
 #
 
