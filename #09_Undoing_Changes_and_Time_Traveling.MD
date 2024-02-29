@@ -96,6 +96,7 @@ Use ``git restore --source <commit> <file>`` to restore a file to the state at a
 #
 ### <a name="git-revert">Reverting Commits With...Git Revert</a>
 
+![Relative to HEAD](https://github.com/tsokac2/-_-_Git_and_GitHub_CheatSheet/blob/main/src/42.JPG)
 
 
 **[Back To The Top](#Overview-of-the-Section)**
