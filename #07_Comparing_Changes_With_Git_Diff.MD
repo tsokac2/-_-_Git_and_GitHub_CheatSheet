@@ -3,6 +3,7 @@
 ### Overview of the Section
 * **[Intro Git Diff](#diff)**
 * **[Guide To Reading Diffs](#reading-diffs)**
+* **[Viewing Unstaged Changes](#changes)**
 
 #
 ### <a name="diff">Intro Git Diff</a>
@@ -35,12 +36,32 @@
 - **Multiple chunks**: A single file can have multiple chunks if there are changes in different sections.
 
 **Important Commands (not mentioned in the text, but implied)**:
-
 - ``git diff``: This command is used to view the differences between versions of files in a Git repository.
 
 **[Back To The Top](#Overview-of-the-Section)**
 #
 
+### <a name="changes">Viewing Unstaged Changes</a>
+**Git Diff Commands**:
+- ``git diff``: Shows all changes in the working directory that are not staged.
+- ``git diff HEAD``: Compares the working directory with the latest commit (HEAD).
+- ``git diff staged <file_name> (or git diff --cached <file_name>)``: Shows the changes in a specific file that are staged for the next commit.
+- ``git diff HEAD <file_name>``: Compares a specific file in the working directory with the latest commit (HEAD).
+- ``git diff``: Shows all unstaged changes in the working directory.
+- ``git diff HEAD``: Shows all changes (staged and unstaged) in the working directory since the last commit (pointed to by HEAD).
+
+**Explanation of ``git diff`` output**:
+- ``A``: Represents the version of the file in the staging area.
+- ``B``: Represents the version of the file in the working directory.
+- ``-``: Indicates a line that was removed in the working directory version (compared to the staging area version).
+- ``+``: Indicates a line that was added in the working directory version (compared to the staging area version).
+
+![]()
+
+- To see **staged changes only**, use the ``git diff --staged`` command (or equivalently, ``git diff --cached``).
+- ``git diff`` by itself shows **unstaged changes**.
+- ``git diff HEAD`` shows **all changes**, staged and unstaged.
+- ``--staged`` and ``--cached`` are aliases for the same functionality.
 
 **[Back To The Top](#Overview-of-the-Section)**
 #
