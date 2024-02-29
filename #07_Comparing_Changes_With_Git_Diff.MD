@@ -7,7 +7,7 @@
 #
 ### <a name="diff">Intro Git Diff</a>
 
-![diff]()
+![diff](https://github.com/tsokac2/-_-_Git_and_GitHub_CheatSheet/blob/main/src/24.JPG)
 
 - The ``git diff`` command shows changes in a Git repository.
 - It can be used to compare various aspects of a repository, including:
@@ -20,7 +20,7 @@
     - Removed lines (- signs)
     - Modified lines (combination of + and - signs)
 
-![git-diff]()
+![git-diff](https://github.com/tsokac2/-_-_Git_and_GitHub_CheatSheet/blob/main/src/25.JPG)
 
 **[Back To The Top](#Overview-of-the-Section)**
 #
