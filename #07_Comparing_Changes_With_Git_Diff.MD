@@ -2,7 +2,7 @@
 
 ### Overview of the Section
 * **[Intro Git Diff](#diff)**
-
+* **[Guide To Reading Diffs](#reading-diffs)**
 
 #
 ### <a name="diff">Intro Git Diff</a>
@@ -21,6 +21,26 @@
     - Modified lines (combination of + and - signs)
 
 ![git-diff](https://github.com/tsokac2/-_-_Git_and_GitHub_CheatSheet/blob/main/src/25.JPG)
+
+**[Back To The Top](#Overview-of-the-Section)**
+#
+<a name="reading-diffs">Guide To Reading Diffs</a>
+
+**Understanding Git Diff Output**:
+
+- **File comparison**: The output shows the differences between two versions of a file, typically the old version ``(A)`` and the new version ``(B)``.
+- **Chunk headers**: These lines identify different sections of the file that have been changed. They are denoted by ``@@`` symbols and contain information about the line numbers involved.
+- **Lines with symbols**: Lines starting with ``-`` represent lines removed from the old version ``(A)``. Lines starting with ``+`` represent lines added to the new version ``(B)``. Lines without symbols are unchanged.
+- **Color coding (optional)**: Some tools use color coding to visually distinguish added, removed, and unchanged lines.
+- **Multiple chunks**: A single file can have multiple chunks if there are changes in different sections.
+
+**Important Commands (not mentioned in the text, but implied)**:
+
+- ``git diff``: This command is used to view the differences between versions of files in a Git repository.
+
+**[Back To The Top](#Overview-of-the-Section)**
+#
+
 
 **[Back To The Top](#Overview-of-the-Section)**
 #
