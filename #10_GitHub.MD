@@ -1,10 +1,14 @@
 <h1 align="center">GitHub</h1>
 
 ### Overview of the Section
-* **[Checking Out Old Commits](#check-old-commits)**
+* **[What is Github?](#github)**
 
 #
-### <a name="check-old-commits">Checking Out Old Commits</a>
+### <a name="github">What is Github?</a>
+
+![github]()
+
+![Comparison]()
 
 
 **[Back To The Top](#Overview-of-the-Section)**
