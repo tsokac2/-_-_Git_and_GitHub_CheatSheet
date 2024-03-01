@@ -2,7 +2,7 @@
 
 ### Overview of the Section
 * **[What is Github?](#github)**
-* **[Cloning Github Repos With Git Clone](#git-clone)**
+* **[git clone: Cloning Github Repos](#git-clone)**
 
 #
 ### <a name="github">What is Github?</a>
@@ -10,7 +10,6 @@
 ![github](https://github.com/tsokac2/-_-_Git_and_GitHub_CheatSheet/blob/main/src/44.JPG)
 
 ![Comparison](https://github.com/tsokac2/-_-_Git_and_GitHub_CheatSheet/blob/main/src/45.JPG)
-
 
 #### Why Use GitHub:
 - **Collaboration**: Work on projects with others. (No specific commands mentioned)
@@ -25,7 +24,24 @@ Open Source Contribution: Contribute to projects, gain experience, and build you
 
 **[Back To The Top](#Overview-of-the-Section)**
 #
-### <a name="git-clone">Cloning Github Repos With Git Clone</a>
+### <a name="git-clone">git clone: Cloning Github Repos</a>
+
+![git-clone](https://github.com/tsokac2/-_-_Git_and_GitHub_CheatSheet/blob/main/src/46.JPG)
+
+- **Command**: ``git clone``
+- **Purpose**: Creates a local copy of a remote repository.
+- **Arguments**: The URL of the remote repository.
+- **Example**: ``git clone https://github.com/username/repository.git``
+- **Important notes**:
+    - Run ``git clone`` outside of an existing Git repository.
+    - The command creates a new directory for the cloned repository.
+    - ``git clone`` downloads the entire history of the repository.
+
+
+
+**[Back To The Top](#Overview-of-the-Section)**
+#
+
 
 
 **[Back To The Top](#Overview-of-the-Section)**
