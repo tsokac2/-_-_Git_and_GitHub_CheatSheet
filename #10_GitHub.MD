@@ -5,6 +5,10 @@
 * **[git clone: Cloning Github Repos](#git-clone)**
 * **[Github Setup: SSH Config](#ssh)**
 * **[Creating Our First Github Repo!](#git-repo)**
+* **[Git Remote](#git-remote)**
+* **[Git Push](#git-push)**
+* **["git push -u"](#git-push-u)**
+
 
 #
 ### <a name="github">What is Github?</a>
@@ -71,6 +75,41 @@ Open Source Contribution: Contribute to projects, gain experience, and build you
 ![Git-Repo_02](https://github.com/tsokac2/-_-_Git_and_GitHub_CheatSheet/blob/main/src/49.JPG)
 
 ![Git-Repo_03](https://github.com/tsokac2/-_-_Git_and_GitHub_CheatSheet/blob/main/src/50.JPG)
+
+**[Back To The Top](#Overview-of-the-Section)**
+#
+
+### <a name="git-remote">Git Remote</a>
+**Commands**:
+- ``git remote``: Lists existing remotes in a repository.
+- ``git remote -v``: Lists existing remotes with their corresponding URLs.
+- ``git remote add <name> <url>``: Adds a new remote named ``<name>`` for the URL ``<url>``.
+- (Optional) ``git remote rename <old_name> <new_name>``: Renames an existing remote from <old_name> to <new_name>.
+- (Optional) ``git remote remove <name>``: Removes the named remote ``<name>``.
+
+![Remote](https://github.com/tsokac2/-_-_Git_and_GitHub_CheatSheet/blob/main/src/51.JPG)
+
+```
+git remote add origin https://github.com/tsokac2/git-tut.git
+git branch -M main
+git push -u origin main
+```
+**[Back To The Top](#Overview-of-the-Section)**
+#
+### <a name="git-push">``git push``</a>
+
+![git-push](https://github.com/tsokac2/-_-_Git_and_GitHub_CheatSheet/blob/main/src/52.JPG)
+
+**Pushing Different Branches**:
+- You can push any branch, not just ``master``.
+- The command syntax remains the same, but replace ``master`` with the name of the branch you want to push.
+- Example for pushing to ``empty`` branch: ``git push origin empty``
+
+**[Back To The Top](#Overview-of-the-Section)**
+#
+
+### <a name="git-push-u">"git push -u"</a>
+
 
 **[Back To The Top](#Overview-of-the-Section)**
 #
