@@ -143,6 +143,4 @@ Existing repositories with the **"master"** branch name can be renamed to "main"
 - Renaming the branch locally requires pushing the changes to GitHub.
 - Changing the default branch name on GitHub can be done through the project settings.
 - Remember, both "master" and "main" are just names for branches and the functionality remains the same.
-
 **[Back To The Top](#Overview-of-the-Section)**
-#
