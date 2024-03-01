@@ -105,10 +105,14 @@ git push -u origin main
 - The command syntax remains the same, but replace ``master`` with the name of the branch you want to push.
 - Example for pushing to ``empty`` branch: ``git push origin empty``
 
+
+
+
 **[Back To The Top](#Overview-of-the-Section)**
 #
 
 ### <a name="git-push-u">"git push -u"</a>
+
 
 
 **[Back To The Top](#Overview-of-the-Section)**
