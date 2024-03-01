@@ -19,9 +19,10 @@
 
 * **[GitHub](https://github.com/tsokac2/-_-_Git_and_GitHub_CheatSheet/blob/main/%2310_GitHub.MD)**
 
+* **[Fetching & Pulling](https://github.com/tsokac2/-_-_Git_and_GitHub_CheatSheet/blob/main/%2311_Fetching_and_Pulling.MD)**
+
+
 #
-
-
 ### Git Essentials: 
 Covers core Git mechanics like committing, branching, and related concepts.
 - Important commands: ``git init``, ``git add``, ``git commit``, ``git status``, ``git log``, ``git branch``, ``git merge``.
