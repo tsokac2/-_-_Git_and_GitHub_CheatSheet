@@ -8,7 +8,7 @@
 * **[Git Remote](#git-remote)**
 * **[Git Push](#git-push)**
 * **["git push -u"](#git-push-u)**
-
+* **[Main & Master: Github Default Branches](#main-master)**
 
 #
 ### <a name="github">What is Github?</a>
@@ -128,6 +128,21 @@ git push -u origin main
 - **Important Note**:
     - Use ``git push -u`` only when creating a new remote branch or the first time pushing an existing local branch.
     - Avoid using ``git push -u`` to push a local branch to a different remote branch name (e.g., pushing dogs to cats). This can lead to merging issues.
+
+**[Back To The Top](#Overview-of-the-Section)**
+#
+### <a name="main-master">Main & Master: Github Default Branches</a>
+GitHub now uses **"main"** as the default branch name for newly created repositories.
+
+Existing repositories with the **"master"** branch name can be renamed to "main" using the command:
+
+``git branch -M main``
+
+- This command renames the current branch to "main" and **forces** the change even if another branch already exists with the name "main".
+- It's important to be aware of the existing default branch name when working with older repositories.
+- Renaming the branch locally requires pushing the changes to GitHub.
+- Changing the default branch name on GitHub can be done through the project settings.
+- Remember, both "master" and "main" are just names for branches and the functionality remains the same.
 
 **[Back To The Top](#Overview-of-the-Section)**
 #
