@@ -37,10 +37,22 @@ Open Source Contribution: Contribute to projects, gain experience, and build you
     - The command creates a new directory for the cloned repository.
     - ``git clone`` downloads the entire history of the repository.
 
+#### git clone: Cloning Non-Github Repos
 
+**Command**: ``git clone``
+- This command is used to create a copy (clone) of an existing Git repository.
+- It can be used with repositories hosted on various platforms, not just GitHub.
+
+**Permissions**:
+- Public repositories on platforms like GitHub can be freely cloned by anyone.
+- Cloning a private repository requires permission from the owner.
+
+**Important**:
+- Cloning a repository allows you to work with the code locally, but does not grant permission to push changes back to the original repository without following the proper contribution workflow.
 
 **[Back To The Top](#Overview-of-the-Section)**
 #
+
 
 
 
