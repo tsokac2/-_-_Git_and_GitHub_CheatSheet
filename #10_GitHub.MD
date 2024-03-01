@@ -57,7 +57,7 @@ Open Source Contribution: Contribute to projects, gain experience, and build you
 
 #### SSH: Which stands for Secure Shell
 
-![]()
+![SSH](https://github.com/tsokac2/-_-_Git_and_GitHub_CheatSheet/blob/main/src/47.JPG)
 
 **[Generating a new SSH key and adding it to the ssh-agent](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)**
 
