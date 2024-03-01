@@ -3,6 +3,7 @@
 ### Overview of the Section
 * **[What is Github?](#github)**
 * **[git clone: Cloning Github Repos](#git-clone)**
+* **[Github Setup: SSH Config](#ssh)**
 
 #
 ### <a name="github">What is Github?</a>
@@ -52,9 +53,13 @@ Open Source Contribution: Contribute to projects, gain experience, and build you
 
 **[Back To The Top](#Overview-of-the-Section)**
 #
+### <a name="ssh">Github Setup: SSH Config</a>
 
+#### SSH: Which stands for Secure Shell
 
+![]()
 
+**[Generating a new SSH key and adding it to the ssh-agent](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)**
 
 **[Back To The Top](#Overview-of-the-Section)**
 #
