@@ -105,8 +105,12 @@ git push -u origin main
 - The command syntax remains the same, but replace ``master`` with the name of the branch you want to push.
 - Example for pushing to ``empty`` branch: ``git push origin empty``
 
+**Commands**:
+- ``git remote add origin <URL>``: Adds a remote repository named "origin" with the provided URL.
+- ``git push origin master``: Pushes the local "master" branch to the remote "origin" repository's "master" branch. (This is the most common scenario.)
+- ``git push origin <local_branch>:<remote_branch>``: Pushes the local branch "<local_branch>" to the remote branch "<remote_branch>". This allows pushing to branches with different names on the local and remote repository.
 
-
+![git-push](https://github.com/tsokac2/-_-_Git_and_GitHub_CheatSheet/blob/main/src/53.JPG)
 
 **[Back To The Top](#Overview-of-the-Section)**
 #
