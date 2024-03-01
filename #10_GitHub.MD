@@ -114,10 +114,20 @@ git push -u origin main
 
 **[Back To The Top](#Overview-of-the-Section)**
 #
-
 ### <a name="git-push-u">"git push -u"</a>
 
+![git-push-u](https://github.com/tsokac2/-_-_Git_and_GitHub_CheatSheet/blob/main/src/54.JPG)
 
+#### Key Points about ``git push -u``:
+- **Command**: ``git push -u <remote> <branch>``
+- **Purpose**: Pushes your local branch to a remote branch and sets the upstream branch connection.
+- **Benefits**:
+    - Makes future pushes easier by remembering the connection (no need to specify the remote and branch name again).
+    - Sets a standard connection between your local and remote branches.
+- **Example**: ``git push -u origin master`` (pushes your local ``master`` branch to the remote ``origin master`` and sets the upstream).
+- **Important Note**:
+    - Use ``git push -u`` only when creating a new remote branch or the first time pushing an existing local branch.
+    - Avoid using ``git push -u`` to push a local branch to a different remote branch name (e.g., pushing dogs to cats). This can lead to merging issues.
 
 **[Back To The Top](#Overview-of-the-Section)**
 #
