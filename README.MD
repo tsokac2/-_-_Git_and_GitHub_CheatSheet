@@ -21,6 +21,9 @@
 
 * **[Fetching & Pulling](https://github.com/tsokac2/-_-_Git_and_GitHub_CheatSheet/blob/main/%2311_Fetching_and_Pulling.MD)**
 
+* **[Github_Odds_and_Ends](https://github.com/tsokac2/-_-_Git_and_GitHub_CheatSheet/blob/main/%2312_Github_Odds_and_Ends.MD)**
+
+
 
 #
 ### Git Essentials: 
