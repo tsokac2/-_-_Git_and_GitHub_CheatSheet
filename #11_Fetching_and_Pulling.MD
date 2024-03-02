@@ -3,7 +3,7 @@
 ### Overview of the Section
 * **[Remote Tracking Branches](#remote-branche)**
 * **[Checking Out Remote Tracking Branches](#checking-remote-branche)**
-* **[Checking Out Remote Tracking Branches](#checking-remote-branche)**
+* **[Git Fetch: The Basics](#git-fetch)**
 
 #
 
@@ -30,10 +30,13 @@
 - **Detached HEAD**: This is a state where your HEAD is not pointing to any commit in your local repository. You can be in detached HEAD by checking out a specific commit or a remote tracking branch.
 - **Pushing commits**: This is the process of sending your local commits to the remote repository.
 
-[git-swithc-branch]()
+[git-swithc-branch](https://github.com/tsokac2/-_-_Git_and_GitHub_CheatSheet/blob/main/src/56.JPG)
 
 **[Back To The Top](#Overview-of-the-Section)**
 #
+### <a name="git-fetch">Git Fetch: The Basics</a>
+
+
 
 **[Back To The Top](#Overview-of-the-Section)**
 #
