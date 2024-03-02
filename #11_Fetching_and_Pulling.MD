@@ -30,15 +30,25 @@
 - **Detached HEAD**: This is a state where your HEAD is not pointing to any commit in your local repository. You can be in detached HEAD by checking out a specific commit or a remote tracking branch.
 - **Pushing commits**: This is the process of sending your local commits to the remote repository.
 
-[git-swithc-branch](https://github.com/tsokac2/-_-_Git_and_GitHub_CheatSheet/blob/main/src/56.JPG)
+![git-swithc-branch](https://github.com/tsokac2/-_-_Git_and_GitHub_CheatSheet/blob/main/src/56.JPG)
 
-[git-swithc-branch](https://github.com/tsokac2/-_-_Git_and_GitHub_CheatSheet/blob/main/src/57.JPG)
+![git-swithc-branch](https://github.com/tsokac2/-_-_Git_and_GitHub_CheatSheet/blob/main/src/57.JPG)
 
 **[Back To The Top](#Overview-of-the-Section)**
 #
 ### <a name="git-fetch">Git Fetch: The Basics</a>
 
+- **Fetching**: Used to download changes from a remote repository (e.g., GitHub) to your local repository **without** integrating them into your working directory.
+- **Command**: ``git fetch [remote]`` (default remote is ``origin``)
+- **Optionally fetch specific branch**: ``git fetch origin master`` (fetches only the ``master`` branch from remote ``origin``)
+- **Benefits**:
+    - Review changes before integrating them.
+    - Maintain a clean working directory.
+    - Access downloaded changes even without internet connection.
 
+![Fetching](https://github.com/tsokac2/-_-_Git_and_GitHub_CheatSheet/blob/main/src/58.JPG)
+
+![git-fetching](https://github.com/tsokac2/-_-_Git_and_GitHub_CheatSheet/blob/main/src/59.JPG)
 
 **[Back To The Top](#Overview-of-the-Section)**
 #
