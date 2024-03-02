@@ -4,6 +4,7 @@
 * **[Github Repo Visibility: Public Vs. Private](#public-private)**
 * **[Github Collaborators](#collaborators)**
 * **[What are READMEs?](#readme)**
+* **[Markdown](#markdown)**
 
 
 #
@@ -56,6 +57,30 @@
     - Contribution guidelines (if applicable)
     - Contact information for support
 - READMEs are the first impression for visitors to your project, so make them informative and clear.
+
+**[Back To The Top](#Overview-of-the-Section)**
+#
+### Markdown
+
+**[Markdown Docs](https://daringfireball.net/projects/markdown/)**
+
+#### What is it?
+- A tool that converts plain text to HTML.
+- Commonly used on GitHub for READMEs and other purposes.
+
+#### - **Basic Syntax:
+- **Headings**: Use hash symbols (#) before the text (e.g., # This is a Heading 1)
+- **Bold**: Use two asterisks (*) around the text (e.g., **bold text**)
+- **Italic**: Use one asterisk (*) or underscore (_) around the text (e.g., italic text or italic text)
+- **Strikethrough**: Use two tildes (~) around the text (e.g., ~~strikethrough text~~)
+- **Blockquotes**: Use a greater than sign (>) at the beginning of each line.
+- **Lists**: Use asterisks (*), plus signs (+), or hyphens (-) for unordered lists. Use numbers for ordered lists.
+- **Code**: Use single backticks () around inline code. Use three backticks () above and below for code blocks. Optionally, specify the language for syntax highlighting (e.g., javascript).
+- **Links**: Enclose the link text in square brackets ([ ]) and follow it with the URL in parentheses (()).
+- **Images**: Use an exclamation point (!) followed by the image URL in square brackets ([ ]) and alt text in parentheses (()).
+
+**[Back To The Top](#Overview-of-the-Section)**
+#
 
 **[Back To The Top](#Overview-of-the-Section)**
 #
