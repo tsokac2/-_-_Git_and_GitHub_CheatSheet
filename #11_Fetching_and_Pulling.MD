@@ -6,7 +6,6 @@
 * **[Git Fetch](#git-fetch)**
 * **[Git Pull](#git-pull)**
 * **[Git Pull & Merge Conflicts](#pull-conflicts)**
-
 #
 ### <a name="remote-branches">Remote Tracking Branches</a>
 
