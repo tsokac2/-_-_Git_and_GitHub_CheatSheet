@@ -3,6 +3,8 @@
 ### Overview of the Section
 * **[Github Repo Visibility: Public Vs. Private](#public-private)**
 * **[Adding Github Collaborators](#collaborators)**
+* **[What are READMEs?](#readme)**
+
 
 #
 ### <a name="public-private">Github Repo Visibility: Public Vs. Private</a>
@@ -37,6 +39,11 @@
 3. In the **Invite collaborator** field, enter the username or email address of the user you want to add.
 4. Select the desired permission level (e.g., read, write, admin) from the **Choose a role** dropdown menu.
 5. Click **Add [username] to repository**.
+
+**[Back To The Top](#Overview-of-the-Section)**
+#
+### <a name="readme">What are READMEs?</a>
+
 
 **[Back To The Top](#Overview-of-the-Section)**
 #
