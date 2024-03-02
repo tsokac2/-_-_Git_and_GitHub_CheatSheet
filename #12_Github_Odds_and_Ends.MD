@@ -8,5 +8,27 @@
 
 ![]()
 
+**Understanding Visibility**:
+
+- Repositories on GitHub can be public or private.
+- **Public**: Anyone on the internet can view the code, but cannot modify it without permission.
+- **Private**: Only the owner and collaborators explicitly granted access can view and modify the code.
+
+**Creating a Repository**:
+1. Go to your account on GitHub.
+2. Click "New repository."
+3. Enter a name for your repository.
+4. Choose **Public** or **Private** under "Visibility."
+
+**Changing Visibility**:
+1. Go to the repository settings.
+2. Scroll down to the "Danger Zone" section.
+3. Click "Change repository visibility."
+4. Enter the repository name to confirm.
+5. Type your password.
+
+**[Back To The Top](#Overview-of-the-Section)**
+#
+
 **[Back To The Top](#Overview-of-the-Section)**
 #
