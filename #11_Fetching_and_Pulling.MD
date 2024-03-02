@@ -2,7 +2,8 @@
 
 ### Overview of the Section
 * **[Remote Tracking Branches](#remote-branche)**
-* **[](#remote-branche)**
+* **[Checking Out Remote Tracking Branches](#checking-remote-branche)**
+* **[Checking Out Remote Tracking Branches](#checking-remote-branche)**
 
 #
 
@@ -13,8 +14,29 @@
 **[Back To The Top](#Overview-of-the-Section)**
 #
 
+### <a name="checking-remote-branche">Checking Out Remote Tracking Branches</a>
+
+**Commands**:
+- ``git status``: This command shows the status of the working directory and the staging area. It tells you which files have been modified, staged, or untracked.
+- ``git add <file>``: This command adds a file to the staging area, which tells Git that you want to include those changes in the next commit.
+- ``git commit -m "<message>"``: This command creates a new commit with the specified message.
+- ``git log``: This command shows the commit history of the repository.
+- ``git checkout <branch>``: This command switches to the specified branch.
+- ``git push origin main``: This command pushes your local commits to the remote repository on GitHub.
+
+**Concepts**:
+
+- **Remote tracking branch:** This is a special branch in your local repository that tracks a branch on a remote repository (like GitHub). It tells you how far ahead or behind you are from the remote branch.
+- **Detached HEAD**: This is a state where your HEAD is not pointing to any commit in your local repository. You can be in detached HEAD by checking out a specific commit or a remote tracking branch.
+- **Pushing commits**: This is the process of sending your local commits to the remote repository.
+
+[git-swithc-branch]()
 
 **[Back To The Top](#Overview-of-the-Section)**
 #
+
+**[Back To The Top](#Overview-of-the-Section)**
+#
+
 
 
