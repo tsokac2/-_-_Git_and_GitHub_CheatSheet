@@ -2,7 +2,7 @@
 
 ### Overview of the Section
 * **[Github Repo Visibility: Public Vs. Private](#public-private)**
-* **[Adding Github Collaborators](#collaborators)**
+* **[Github Collaborators](#collaborators)**
 * **[What are READMEs?](#readme)**
 
 
@@ -30,10 +30,9 @@
 
 **[Back To The Top](#Overview-of-the-Section)**
 #
-### <a name="collaborators">Adding Github Collaborators</a>
+### <a name="collaborators">Github Collaborators</a>
 
 **Adding Collaborators to a Private Repository**:
-
 1. Go to **Settings** for the repository.
 2. Click on **Manage access** under the **Access** section.
 3. In the **Invite collaborator** field, enter the username or email address of the user you want to add.
@@ -44,6 +43,19 @@
 #
 ### <a name="readme">What are READMEs?</a>
 
+- A **README** file is a crucial file in a GitHub repository.
+- It explains the purpose, usage, and other important information about your project.
+- It is displayed automatically by GitHub if placed in the **root** of your repository.
+- It is typically written in **markdown (.md)** format, which allows for easy formatting of text.
+
+**Important to know (not code)**:
+
+- While not mandatory, a good README should include:
+    - Project description and purpose
+    - Installation and usage instructions
+    - Contribution guidelines (if applicable)
+    - Contact information for support
+- READMEs are the first impression for visitors to your project, so make them informative and clear.
 
 **[Back To The Top](#Overview-of-the-Section)**
 #
