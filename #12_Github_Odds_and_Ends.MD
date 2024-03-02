@@ -64,13 +64,11 @@
 
 **[Markdown Docs](https://daringfireball.net/projects/markdown/)**
 
+![Readme]()
+
 #### What is it?
 - A tool that converts plain text to HTML.
 - Commonly used on GitHub for READMEs and other purposes.
-
-```js
-console.log("Helloe");
-```
 
 #### - **Basic Syntax:
 - **Headings**: Use hash symbols (#) before the text (e.g., # This is a Heading 1)
