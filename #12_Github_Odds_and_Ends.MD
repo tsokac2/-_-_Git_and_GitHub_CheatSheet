@@ -117,6 +117,12 @@
 
 ![Github Pages](https://github.com/tsokac2/-_-_Git_and_GitHub_CheatSheet/blob/main/src/63.JPG)
 
+- **Free website hosting**: Host static websites (HTML, CSS, JavaScript) for free on GitHub repositories.
+- **Limitations**: No server-side languages like Python, Ruby, or Node. Not suitable for high-traffic websites.
+- **Two types**:
+    - **Project Sites**: One per repository. URL format: ``username.github.io/repo-name``.
+    - **User Sites**: One per GitHub account. URL format: ``username.github.io``.
+- **Custom Domain**: You can use your own domain instead of ``.github.io`` (not covered in this text).
 
 **[Back To The Top](#Overview-of-the-Section)**
 #
