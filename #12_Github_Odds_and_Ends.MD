@@ -124,5 +124,7 @@
     - **User Sites**: One per GitHub account. URL format: ``username.github.io``.
 - **Custom Domain**: You can use your own domain instead of ``.github.io`` (not covered in this text).
 
+![Github Pages](https://github.com/tsokac2/-_-_Git_and_GitHub_CheatSheet/blob/main/src/64.JPG)
+
 **[Back To The Top](#Overview-of-the-Section)**
 #
