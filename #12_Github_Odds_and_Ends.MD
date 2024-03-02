@@ -5,7 +5,8 @@
 * **[Github Collaborators](#collaborators)**
 * **[What are READMEs?](#readme)**
 * **[Markdown](#markdown)**
-
+* **[Github Gists](#github-gists)**
+* **[Github Pages](#github-pages)**
 
 #
 ### <a name="public-private">Github Repo Visibility: Public Vs. Private</a>
@@ -64,7 +65,7 @@
 
 **[Markdown Docs](https://daringfireball.net/projects/markdown/)**
 
-![Readme]()
+![Readme](https://github.com/tsokac2/-_-_Git_and_GitHub_CheatSheet/blob/main/src/61.JPG)
 
 #### What is it?
 - A tool that converts plain text to HTML.
@@ -83,7 +84,38 @@
 
 **[Back To The Top](#Overview-of-the-Section)**
 #
+### Github Gists
 
+![Github Gists](https://github.com/tsokac2/-_-_Git_and_GitHub_CheatSheet/blob/main/src/62.JPG)
+
+**Accessing Gists**:
+- Go to https://gist.github.com/.
+- Alternatively, access through your profile -> gists.
+
+**Creating a Gist**:
+1. Click the "+" button.
+2. Enter file name(s) and content.
+3. Choose to make the Gist public or secret.
+4. Optionally, add a description.
+
+**Key Commands**:
+- Create a Gist: Click "+" button.
+- Make Gist Public/Secret: Choose during creation.
+- Edit Gist: Click the edit button on the Gist.
+- Delete Gist: Click the trashcan icon on the Gist.
+- View Gist Revisions: Click "Revisions" tab on the Gist.
+
+**Additional Notes**:
+- Gists can have multiple files with various extensions.
+- They offer limited functionalities compared to full repositories.
+- Public Gists are discoverable by others.
+- Gists can be forked (copied) and starred (saved for later).
+
+**[Back To The Top](#Overview-of-the-Section)**
+#
+### Github Pages
+
+![Github Pages](https://github.com/tsokac2/-_-_Git_and_GitHub_CheatSheet/blob/main/src/63.JPG)
 
 
 **[Back To The Top](#Overview-of-the-Section)**
