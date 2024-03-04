@@ -100,23 +100,21 @@
 
 ![forking](https://github.com/tsokac2/-_-_Git_and_GitHub_CheatSheet/blob/main/src/69.JPG)
 
-Key Points: Forking and Cloning on GitHub
-Forking:
+#### Forking:
+- Not a Git feature, but a feature of GitHub and similar platforms.
+- Creates a personal copy of someone else's repository on your account.
+- Only works for public repositories (or private ones with access).
+- Use the fork button on the repository page.
+- You can modify the forked repository without affecting the original.
 
-Not a Git feature, but a feature of GitHub and similar platforms.
-Creates a personal copy of someone else's repository on your account.
-Only works for public repositories (or private ones with access).
-Use the fork button on the repository page.
-You can modify the forked repository without affecting the original.
-Cloning:
+#### Cloning:
+- Mentioned but not covered in detail in this excerpt.
+- Cloning refers to creating a local copy of a repository (including your own fork) on your computer.
+- This is done using the git clone command in your terminal.
 
-Mentioned but not covered in detail in this excerpt.
-Cloning refers to creating a local copy of a repository (including your own fork) on your computer.
-This is done using the git clone command in your terminal.
-Important to Remember:
-
-Forking allows anyone to contribute to open-source projects without needing permission.
-You can make changes to your fork and submit a pull request to propose those changes to the original repository.
+#### Important to Remember:
+- Forking allows anyone to contribute to open-source projects without needing permission.
+- You can make changes to your fork and submit a pull request to propose those changes to the original repository.
 
 **[Back To The Top](#Overview-of-the-Section)**
 #
