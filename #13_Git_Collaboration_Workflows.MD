@@ -3,6 +3,7 @@
 ### Overview of the Section
 * **[The Pitfalls Of A Centralized Workflow](#c-workflow)**
 * **[Merging Feature Branches](#merging)**
+* **[Pull Requests](#pull)**
 
 
 #
@@ -39,6 +40,32 @@
 - ``git pull``: This command is used to download the latest changes from a remote branch.
 - ``git merge``: This command is used to merge the changes from one branch into another.
 - ``git push``: This command is used to upload local changes to a remote branch.
+
+**[Back To The Top](#Overview-of-the-Section)**
+#
+### <a name="pull">Pull Requests</a>
+![Pull](https://github.com/tsokac2/-_-_Git_and_GitHub_CheatSheet/blob/main/src/67.JPG)
+
+#### What are Pull Requests (PRs)?
+- Pull requests are a way for developers to tell others about their work and request that it be merged into the main codebase.
+- They are not a native Git feature, but are built on platforms like GitHub and Bitbucket.
+- They facilitate discussion and code review before code is merged.
+
+#### How to Create a Pull Request on GitHub:
+1. Push your feature branch to GitHub.
+2. Click on the "Compare and pull request" button.
+3. Choose the branch you want to merge into (usually master or main).
+4. Provide a title and description for your pull request.
+5. Click "Create pull request".
+
+#### What Happens After a Pull Request is Created:
+- Collaborators can review the code and leave comments.
+- The pull request can be discussed and modified before being merged.
+- The pull request can be merged or rejected.
+
+#### Additional Notes:
+- **Permissions** can be set to prevent developers from directly merging code into the main branch.
+- **Naming conventions** are often used for pull requests in large projects.
 
 **[Back To The Top](#Overview-of-the-Section)**
 #
