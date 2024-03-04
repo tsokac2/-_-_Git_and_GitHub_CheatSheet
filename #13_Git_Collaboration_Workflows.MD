@@ -2,7 +2,7 @@
 
 ### Overview of the Section
 * **[The Pitfalls Of A Centralized Workflow](#c-workflow)**
-* **[](#)**
+* **[Merging Feature Branches](#merging)**
 
 
 #
