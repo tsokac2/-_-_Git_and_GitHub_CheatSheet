@@ -23,6 +23,10 @@
 
 * **[Github_Odds_and_Ends](https://github.com/tsokac2/-_-_Git_and_GitHub_CheatSheet/blob/main/%2312_Github_Odds_and_Ends.MD)**
 
+* **[Git Collaboration Workflows](https://github.com/tsokac2/-_-_Git_and_GitHub_CheatSheet/blob/main/%2313_Git_Collaboration_Workflows.MD)**
+
+* **[Rebasing](https://github.com/tsokac2/-_-_Git_and_GitHub_CheatSheet/blob/main/%2314_Rebasing.MD)**
+
 
 
 #
