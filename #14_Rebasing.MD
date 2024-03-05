@@ -3,6 +3,7 @@
 ### Overview of the Section
 * **[Why Rebasing?](#rebasing)**
 * **[The Golden Rule: When NOT to Rebase](#not-rebasing)**
+* **[Interactive Rebase](#i-rebase)**
 
 #
 ### <a name="rebasing">Why Rebasing?</a>
@@ -43,5 +44,27 @@
 - If you are working on a team project, it is important to follow the team's workflow for rebasing and merging.
 
 ![Rebasing Add](https://github.com/tsokac2/-_-_Git_and_GitHub_CheatSheet/blob/main/src/71.JPG)
+
+**[Back To The Top](#Overview-of-the-Section)**
+#
+
+### <a name="i-rebase">Interactive Rebase</a>
+**Rewriting history with Git Rebase**:
+
+- This is an alternative way to use ``git rebase`` beyond merging branches.
+- Important: It's not recommended to rewrite history on shared work.
+- Use this for cleaning up your branch before sharing:
+    - Combine commits.
+    - Rename commits.
+    - Delete commits.
+    - Reorder commits.
+
+**Command**:
+``git rebase -i <number of commits to go back>``
+
+- ``<number of commits to go back>`` specifies how far back in your branch history you want to start rewriting.
+- The ``-i`` flag enables interactive mode, allowing you to edit commits during the rebase process.
+
+![Interactive Rebasing](https://github.com/tsokac2/-_-_Git_and_GitHub_CheatSheet/blob/main/src/72.JPG)
 
 **[Back To The Top](#Overview-of-the-Section)**
