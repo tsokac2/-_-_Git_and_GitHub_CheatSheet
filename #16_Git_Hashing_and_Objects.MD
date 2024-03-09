@@ -5,6 +5,7 @@
 * **[The Refs Directory](#refs)**
 * **[The Objects Directory](#objects)**
 * **[Git As A Key-Value Datastore](#git-key)**
+* **[Hashing With Git Hash-Object](#hashing)**
 
 #
 ### <a name="config-file">Working With The Local Config File</a>
@@ -83,7 +84,7 @@ The refs directory stores references (branch names, tag names, etc.) which point
 **[Back To The Top](#Overview-of-the-Section)**
 #
 
-Hashing With Git Hash-Object
+### <a name="hashing">Hashing With Git Hash-Object</a>
 
 **[Git-hash-object Docs](https://git-scm.com/docs/git-hash-object)**
 
