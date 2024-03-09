@@ -105,3 +105,17 @@ Important Commands:
 
 **[Back To The Top](#Overview-of-the-Section)**
 #
+
+### <a name="cat-file">Retrieving Data With Git Cat-File</a>
+
+- Git stores information as objects (blobs, trees, commits, tags).
+- We can manually store content in Git using the ``git hash-object`` command.
+- ``git hash-object <file>``: Calculates the SHA-1 hash of the content in the specified file and prints the hash to the standard output. Optionally stores the object in the database with ``-w`` flag.
+- ``git cat-file -p <hash>``: Retrieves an object from the Git database based on the provided hash and pretty-prints the content based on the object type. Use the ``-p`` flag for pretty printing.
+- We can use these commands to store and retrieve different versions of a file by hashing the content.
+- This is not the same as creating a commit in Git. We will explore blobs in more detail in the next video.
+
+![Retrieving Git Database Object Hash](https://github.com/tsokac2/-_-_Git_and_GitHub_CheatSheet/blob/main/src/86.JPG)
+
+**[Back To The Top](#Overview-of-the-Section)**
+#
