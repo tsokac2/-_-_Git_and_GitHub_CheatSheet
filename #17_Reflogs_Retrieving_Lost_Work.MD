@@ -4,8 +4,7 @@
 * **[Git Reflogs](#git-reflogs)**
 * **[The Git Reflog Show Command](#git-show)**
 * **[Reflog References Around](#r-references)**
-
-* **[Reflog References Around](#r-references)**
+* **[Time-Based References](#t-references)**
 
 #
 ### <a name="git-reflogs">Git Reflogs</a>
@@ -69,6 +68,26 @@
 
 - ``head@{number}`` might not refer to a different commit if the reflog entries involve branch switching or detached HEAD.
 - Tilde notation ``(~)`` is a shorthand for referencing parents in the commit history.
+
+**[Back To The Top](#Overview-of-the-Section)**
+#
+### <a name="t-references">Time-Based References</a>
+
+![Limitations Reflogs_02](https://github.com/tsokac2/-_-_Git_and_GitHub_CheatSheet/blob/main/src/96.JPG)
+
+- Git reflogs record timestamps associated with every update to branch tips and other references in your local repository.
+- You can use these timestamps to revisit specific points in your Git history with timed qualifiers.
+
+**Important commands and syntax**:
+- ``git reflog show``: This command displays the reflog for the HEAD reference by default. You can also specify a different reference like ``git reflog show master``.
+
+- Timed qualifiers: These qualifiers allow you to specify a point in time relative to the present. Examples include:
+    - ``HEAD@{yesterday}``: Refers to the state of HEAD one day ago.
+    - ``master@{two.days.ago}``: Refers to the state of the master branch two days ago.
+    - Other supported qualifiers include "hours ago", "weeks ago", and "months ago".
+
+- Using timed qualifiers with ``git checkout``: You can use timed qualifiers with ``git checkout`` to checkout a specific point in your Git history. For example:
+    - ``git checkout master@{one.week.ago}``: Checks out the master branch to the state it was in one week ago.
 
 **[Back To The Top](#Overview-of-the-Section)**
 #
