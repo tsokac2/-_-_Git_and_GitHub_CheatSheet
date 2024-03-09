@@ -3,6 +3,9 @@
 ### Overview of the Section
 * **[Git Reflogs](#git-reflogs)**
 * **[The Git Reflog Show Command](#git-show)**
+* **[Reflog References Around](#r-references)**
+
+* **[Reflog References Around](#r-references)**
 
 #
 ### <a name="git-reflogs">Git Reflogs</a>
@@ -41,6 +44,35 @@
 - ``git reflog show [reference]`` - This command shows the reflog for the specified reference (HEAD by default).
 
 ![Limitations Reflogs_02](https://github.com/tsokac2/-_-_Git_and_GitHub_CheatSheet/blob/main/src/94.JPG)
+
+**[Back To The Top](#Overview-of-the-Section)**
+#
+### <a name="r-references">Reflog References Around</a>
+
+![Limitations Reflogs_02](https://github.com/tsokac2/-_-_Git_and_GitHub_CheatSheet/blob/main/src/95.JPG)
+
+**Referencing entries in a reflog**: 
+- Use ``name@{number}`` syntax.
+- name is the reference name (e.g., head, master).
+- @ symbol separates the name from the qualifier.
+- number specifies the position in the reflog history.
+
+- ``git reflog show`` command: Shows the reflog for a specific reference (defaults to HEAD).
+
+- ``git checkout head@{number}``: Checks out the commit that HEAD pointed to number moves ago in the reflog.
+
+- ``git checkout head~{number}`` **(tilde notation)**: Checks out the parent commit of HEAD ``number`` generations back (e.g., tilde2 is the grandparent commit).
+
+- **Using reflogs with other commands**: You can use the same syntax (``name@{number}``) with other Git commands like ``diff`` to compare commits at different points in the reflog history.
+
+**Important to Remember**:
+
+- ``head@{number}`` might not refer to a different commit if the reflog entries involve branch switching or detached HEAD.
+- Tilde notation ``(~)`` is a shorthand for referencing parents in the commit history.
+
+**[Back To The Top](#Overview-of-the-Section)**
+#
+
 
 **[Back To The Top](#Overview-of-the-Section)**
 #
