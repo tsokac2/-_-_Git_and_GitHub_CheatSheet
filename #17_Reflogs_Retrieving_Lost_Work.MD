@@ -90,8 +90,3 @@
     - ``git checkout master@{one.week.ago}``: Checks out the master branch to the state it was in one week ago.
 
 **[Back To The Top](#Overview-of-the-Section)**
-#
-
-
-**[Back To The Top](#Overview-of-the-Section)**
-#
