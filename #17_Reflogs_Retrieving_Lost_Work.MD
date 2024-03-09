@@ -2,9 +2,7 @@
 
 ### Overview of the Section
 * **[Git Reflogs](#git-reflogs)**
-
-### <a name="git-show">The Git Reflog Show Command</a>
-
+* **[The Git Reflog Show Command](#git-show)**
 
 #
 ### <a name="git-reflogs">Git Reflogs**</a>
