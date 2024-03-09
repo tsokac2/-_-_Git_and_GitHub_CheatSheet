@@ -5,7 +5,7 @@
 * **[The Git Reflog Show Command](#git-show)**
 
 #
-### <a name="git-reflogs">Git Reflogs**</a>
+### <a name="git-reflogs">Git Reflogs</a>
 
 ![Reflogs_01](https://github.com/tsokac2/-_-_Git_and_GitHub_CheatSheet/blob/main/src/91.JPG)
 
