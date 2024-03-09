@@ -3,6 +3,7 @@
 ### Overview of the Section
 * **[The Global Git Config File](#global-git)**
 * **[Git Alias](#git-alias)**
+* **[Aliases With Arguments](#a-arguments)**
 
 #
 ### <a name="global-git">The Global Git Config File</a>
