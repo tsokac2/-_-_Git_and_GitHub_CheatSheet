@@ -152,9 +152,23 @@ Important Commands:
 
 **[Back To The Top](#Overview-of-the-Section)**
 #
-### <a name="trees">Deep Dive Into Git Objects: Commits</a>
+### <a name="commits">Deep Dive Into Git Objects: Commits</a>
+**Here are the key points from the text about Git commits, including important commands and code**:
+- A commit creates a new snapshot of the project's current state.
+- Commits are stored as Git objects in the ``.git/objects`` directory.
+- Each commit contains:
+    - A reference to the parent commit (except for the first commit).
+    - A reference to a tree object, which represents the directory structure and file contents at that point in time.
+    - Metadata like author, committer, and message.
+- The ``git commit`` command is used to create a new commit.
+- The ``git cat-file`` command can be used to view information about Git objects, including commits. Use the ``-T`` flag to view the type of object and the ``-p`` flag for a pretty print view.
 
+**Important code**:
+- ``git commit``: Creates a new commit.
+- ``git cat-file -T <hash>``: View the type of Git object for a specific hash.
+- ``git cat-file -p <hash>``: Pretty print the contents of a Git object for a specific hash.
+
+![Commits](https://github.com/tsokac2/-_-_Git_and_GitHub_CheatSheet/blob/main/src/90.JPG)
 
 **[Back To The Top](#Overview-of-the-Section)**
-#
 
