@@ -6,7 +6,7 @@
 #
 ### <a name="git-tags">Git Tags</a>
 
-![Git Tages]()
+![Git Tags](https://github.com/tsokac2/-_-_Git_and_GitHub_CheatSheet/blob/main/src/73.JPG)
 
 
 - Tags are used to mark specific commits (versions) in your Git repository history.
@@ -24,6 +24,8 @@
 
 2. **Annotated tags** (preferred):
     - Include additional information like tag message, author details and date.
+
+![Git Tags Versoning](https://github.com/tsokac2/-_-_Git_and_GitHub_CheatSheet/blob/main/src/74.JPG)
 
 **[Back To The Top](#Overview-of-the-Section)**
 #
