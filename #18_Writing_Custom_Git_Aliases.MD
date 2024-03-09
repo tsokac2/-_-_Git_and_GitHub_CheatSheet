@@ -52,5 +52,36 @@
 - Aliases can be used for combining commands or adding frequently used options.
 - Some resources share pre-defined useful aliases.
 
+- You can configure Git aliases from the command line using the git config command.
+- The syntax is: ``git config --global alias.<alias_name> <command>``. For example, to create an alias named ``showmebranches`` for the ``git branch`` command, you would run: ``git config --global alias.showmebranches git branch``
+- You can use the ``--global`` flag to make the alias available for all Git repositories on your system. If you omit the ``--global`` flag, the alias will only be available for the current repository.
+- You can check the aliases you have configured by running: ``git config --global -l`` (or ``git config -l`` for local aliases).
+
 **[Back To The Top](#Overview-of-the-Section)**
 #
+### <a name="a-arguments">Aliases With Arguments</a>
+
+- Git aliases can accept arguments.
+- When calling an alias with arguments, those arguments are passed through to the original command.
+- This allows you to create shortcuts for commands that typically require additional information, like a commit message.
+
+**Here's how to set up an alias with an argument**:
+
+1. Open your ``.gitconfig`` file (usually located in your home directory).
+2. Add a line in the ``[alias]`` section with the following format:
+
+``alias_name = command -flag``
+
+- Replace ``alias_name`` with your desired shortcut.
+- Replace ``command`` with the actual git command (e.g., commit).
+- Replace ``-flag`` with the flag that typically requires an argument (e.g., ``-m`` for commit message).
+
+**Example**:
+
+``CM = commit -m``
+
+This alias allows you to commit changes with a message by running ``git CM "your message"``.
+
+**[Git-aliases Docs](https://www.durdn.com/blog/2012/11/22/must-have-git-aliases-advanced-examples/)**
+
+**[Back To The Top](#Overview-of-the-Section)**
