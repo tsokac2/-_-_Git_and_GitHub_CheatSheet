@@ -9,7 +9,7 @@
 * **[Retrieving Data With Git Cat-File](#cat-file)**
 * **[Deep Dive Into Git Objects: Blobs](#blobs)**
 * **[Deep Dive Into Git Objects: Trees](#trees)**
-
+* **[Deep Dive Into Git Objects: Commits](#commits)**
 #
 ### <a name="config-file">Working With The Local Config File</a>
 
@@ -149,6 +149,11 @@ Important Commands:
 - ``git cat-file -T <hash>``: This command is used to get the type of a Git object (blob or tree).
 
 ![Trees_02](https://github.com/tsokac2/-_-_Git_and_GitHub_CheatSheet/blob/main/src/89.JPG)
+
+**[Back To The Top](#Overview-of-the-Section)**
+#
+### <a name="trees">Deep Dive Into Git Objects: Commits</a>
+
 
 **[Back To The Top](#Overview-of-the-Section)**
 #
