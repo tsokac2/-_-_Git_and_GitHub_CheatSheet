@@ -8,7 +8,7 @@
 * **[Tagging Previous Commits](#tagging-commits)**
 * **[Replacing Tags With Force](#replacing-tags)**
 * **[Deleting Tags](#d-tags)**
-
+* **[Pushing Tags](#pushing-tags)**
 
 #
 ### <a name="git-tags">Git Tags</a>
@@ -152,6 +152,29 @@ Using the ``-f`` flag is generally discouraged as it rewrites history. It's reco
 
 ![Tagging Previous Commits](https://github.com/tsokac2/-_-_Git_and_GitHub_CheatSheet/blob/main/src/80.JPG)
 
+- Use the ``git tag -d`` command followed by the tag name you want to delete.
+- This is similar to deleting a branch using ``-d`` flag.
+- Example: ``git tag -d deleteme``  (This deletes the tag "deleteme")
 
 **[Back To The Top](#Overview-of-the-Section)**
 #
+
+### <a name="pushing-tags">Pushing Tags</a>
+
+![Tagging Previous Commits](https://github.com/tsokac2/-_-_Git_and_GitHub_CheatSheet/blob/main/src/81.JPG)
+
+**Two ways to Push Tags**:
+
+1. Push all new tags:
+
+``git push <remote_name> --tags``
+- ``<remote_name>``: The name of the remote repository (e.g., origin).
+
+2. Push a single specific tag:
+
+``git push <remote_name> <tag_name>``
+
+- ``<remote_name>``: The name of the remote repository.
+- ``<tag_name>``: The name of the specific tag you want to push.
+
+**[Back To The Top](#Overview-of-the-Section)**
