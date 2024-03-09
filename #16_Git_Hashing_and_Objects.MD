@@ -6,6 +6,9 @@
 * **[The Objects Directory](#objects)**
 * **[Git As A Key-Value Datastore](#git-key)**
 * **[Hashing With Git Hash-Object](#hashing)**
+* **[Retrieving Data With Git Cat-File](#cat-file)**
+* **[Deep Dive Into Git Objects: Blobs](#blobs)**
+* **[Deep Dive Into Git Objects: Trees](#trees)**
 
 #
 ### <a name="config-file">Working With The Local Config File</a>
@@ -105,9 +108,7 @@ Important Commands:
 
 **[Back To The Top](#Overview-of-the-Section)**
 #
-
 ### <a name="cat-file">Retrieving Data With Git Cat-File</a>
-
 - Git stores information as objects (blobs, trees, commits, tags).
 - We can manually store content in Git using the ``git hash-object`` command.
 - ``git hash-object <file>``: Calculates the SHA-1 hash of the content in the specified file and prints the hash to the standard output. Optionally stores the object in the database with ``-w`` flag.
@@ -119,3 +120,36 @@ Important Commands:
 
 **[Back To The Top](#Overview-of-the-Section)**
 #
+### <a name="blobs">Deep Dive Into Git Objects: Blobs</a>
+
+![Blobs](https://github.com/tsokac2/-_-_Git_and_GitHub_CheatSheet/blob/main/src/87.JPG)
+
+- Git stores content of files in objects called Blobs (Binary Large Objects).
+- Blobs are identified by a unique 40 character SHA-1 hash, generated from the content.
+- The ``git hash-object`` command can be used to create a blob from a file's content. (Important command to know)
+- Blobs themselves don't store filenames, they only store the raw content.
+- Blobs are building blocks for other Git objects like Trees and Commits.
+
+**[Back To The Top](#Overview-of-the-Section)**
+#
+### <a name="trees">Deep Dive Into Git Objects: Trees</a>
+
+![Trees_01](https://github.com/tsokac2/-_-_Git_and_GitHub_CheatSheet/blob/main/src/88.JPG)
+
+**Important concepts**:
+- Git stores blobs (content of files) and trees (directory structure) as objects.
+- Blobs store the contents of a file and do not store the file name.
+- Trees store pointers to blobs and other trees.
+- Each entry in a tree has a type (blob or tree) and a hash.
+- The hash is used to reference the blob or tree object.
+
+**Important commands**:
+- ``git cat-file -P <hash>``: This command is used to view the contents of a blob or tree object.
+    - ``<hash>`` is the hash of the blob or tree object.
+- ``git cat-file -T <hash>``: This command is used to get the type of a Git object (blob or tree).
+
+![Trees_02](https://github.com/tsokac2/-_-_Git_and_GitHub_CheatSheet/blob/main/src/89.JPG)
+
+**[Back To The Top](#Overview-of-the-Section)**
+#
+
