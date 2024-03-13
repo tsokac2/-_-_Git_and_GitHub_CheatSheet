@@ -71,7 +71,7 @@
 - A tool that converts plain text to HTML.
 - Commonly used on GitHub for READMEs and other purposes.
 
-#### - **Basic Syntax:
+#### Basic Syntax:
 - **Headings**: Use hash symbols (#) before the text (e.g., # This is a Heading 1)
 - **Bold**: Use two asterisks (*) around the text (e.g., **bold text**)
 - **Italic**: Use one asterisk (*) or underscore (_) around the text (e.g., italic text or italic text)
